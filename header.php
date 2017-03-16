@@ -7,3 +7,4 @@
   <link rel="stylesheet" type="text/css" href="css/gisborough.css">
 </head>
 <body>
+  <?php include('menu.php') ?>
