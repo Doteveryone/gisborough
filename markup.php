@@ -2,16 +2,29 @@
 
 <div id="main">
 
-<p><strong>Headings</strong></p>
+
+<h2><strong>Headings</strong></h2>
 <h1>Header one</h1>
 <h2>Header two</h2>
 <h3>Header three</h3>
 <h4>Header four</h4>
 <h5>Header five</h5>
 <h6>Header six</h6>
+
+<h2>Paragraphs</h2>
+
+<p>We made a most imposing and awe-inspiring spectacle as we strung out across the yellow landscape; the two hundred and fifty ornate and brightly colored chariots, preceded by an advance guard of some two hundred mounted warriors and chieftains riding five abreast and one hundred yards apart, and followed by a like number in the same formation, with a score or more of flankers on either side; the fifty extra mastodons, or heavy draught animals, known as zitidars, and the five or six hundred extra thoats of the warriors running loose within the hollow square formed by the surrounding warriors.</p>
+
+<p>The gleaming metal and jewels of the gorgeous ornaments of the men and women, duplicated in the trappings of the zitidars and thoats, and interspersed with the flashing colors of magnificent silks and furs and feathers, lent a barbaric splendor to the caravan which would have turned an East Indian potentate green with envy.</p>
+
+<p>The enormous broad tires of the chariots and the padded feet of the animals brought forth no sound from the moss-covered sea bottom.</p>
+
+
 <h2>Blockquotes</h2>
 <p>Single line blockquote:</p>
-<blockquote><p>Stay hungry. Stay foolish.</p></blockquote>
+<blockquote><p>There can be no whitewash at the White House.</p></blockquote>
+<p>Large single line blockquote:</p>
+<blockquote class='large'><p>There can be no whitewash at the White House.</p></blockquote>
 <p>Multi line blockquote with a cite reference:</p>
 <blockquote><p>People think focus means saying yes to the thing you&#8217;ve got to focus on. But that&#8217;s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I&#8217;m actually as proud of the things we haven&#8217;t done as the things I have done. Innovation is saying no to 1,000 things. <cite>Steve Jobs &#8211; Apple Worldwide Developers&#8217; Conference, 1997</cite></p></blockquote>
 <h2>Tables</h2>
@@ -23,9 +36,9 @@
 <th></th>
 </tr>
 <tr class="odd">
-<td><a href="http://example.com/">Jane</a></td>
+<td><a href="http://example.com/">Jeremy</a></td>
 <td>$1</td>
-<td>Because that&#8217;s all Steve Job&#8217; needed for a salary.</td>
+<td>A single, solitary, dollar.</td>
 </tr>
 <tr class="even">
 <td><a href="http://example.com">John</a></td>
@@ -35,12 +48,12 @@
 <tr class="odd">
 <td><a href="http://example.com/">Jane</a></td>
 <td>$100M</td>
-<td>Pictures are worth a thousand words, right? So Tom x 1,000.</td>
+<td>Jane does even more blogging.</td>
 </tr>
 <tr class="even">
-<td><a href="http://example.com/">Jane</a></td>
+<td><a href="http://example.com/">Japheth</a></td>
 <td>$100B</td>
-<td>With hair like that?! Enough said&#8230;</td>
+<td>It's more than Ham or Shem got.</td>
 </tr>
 </tbody>
 </table>

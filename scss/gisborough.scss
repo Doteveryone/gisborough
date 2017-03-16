@@ -1,7 +1,7 @@
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.4em;
-  font-size: 16px;
+  line-height: 1.6em;
+  font-size: 18px;
 }
 
 .clear {
@@ -23,6 +23,11 @@ a {
     color: red;
     text-decoration: underline;
   }
+}
+
+abbr,acronym {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 h1 {
@@ -49,11 +54,20 @@ h4,h5,h6 {
 }
 
 blockquote {
-  color: #777;
-  margin: 1em 0 1em 1em;
+  color: #555;
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid #ddd;
   cite {
     font-style:italic;
-    color: #555;
+    color: #777;
+  }
+  &.large {
+    font-size: 180%;
+    border-left: none;
+    padding-left: 0;
+    margin-left: 1em;
+    color: #666;
   }
 }
 
@@ -115,12 +129,19 @@ sup {
 
 table {
   margin: 1em 0;
+   border-collapse: collapse;
+    border-style: hidden;
   th {
     font-weight: bold;
+    color: #fff;
+    background: #666;
   }
   th, td {
-    padding: 5px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    border: 1px solid #888;
+  }
+  tr.even td {
+    background: #eee;
   }
 }
 
