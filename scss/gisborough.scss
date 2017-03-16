@@ -1,3 +1,7 @@
+@import "breakpoint";
+
+$desktop_and_up: 960px;
+
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.6em;
@@ -7,6 +11,37 @@ body {
 .clear {
   clear: both;
   display: block;
+}
+
+/* layout */
+
+#main {
+  margin: 0 auto;
+  width: 95%;
+  padding: 0 10px;
+  @include breakpoint($desktop_and_up) {
+    width: 960px;
+    // padding: 0;
+  }
+}
+
+
+/* specific to proto */
+
+#gisborough-menu {
+  opacity: 0.8;
+  margin: 0 auto 20px;
+  font-size: 90%;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #eee;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  @include breakpoint($desktop_and_up) {
+    width: 960px;
+    // padding-left: 0;
+    // padding-right: 0;
+  }
 }
 
 /* typography */
@@ -145,13 +180,6 @@ table {
   }
 }
 
-/* layout */
-
-#main {
-  width: 800px;
-  margin: 0 auto;
-}
-
 /*
  * Elements
  */
@@ -188,9 +216,13 @@ table {
   display: none; // TODO: only on screen
 }
 
-a.concertina-link.selected {
-  background: #ccc;
+a.concertina-link {
+  font-weight: bold;
+  background: #eee;
   padding: 5px;
+  &.selected {
+    background: #ccc;
+  }
 }
 
 a.concertina-return {
