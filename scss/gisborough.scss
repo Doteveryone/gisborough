@@ -156,7 +156,9 @@ table {
  * Elements
  */
 
- .boxout {
+// Boxouts
+
+.boxout {
   margin-bottom: 20px;
   &.side {
     width: 200px;
@@ -179,3 +181,26 @@ table {
     padding: 10px;
   }
  }
+
+// Concertinas
+
+.concertina {
+  display: none; // TODO: only on screen
+}
+
+a.concertina-link.selected {
+  background: #ccc;
+  padding: 5px;
+}
+
+a.concertina-return {
+  float: right;
+  display: block;
+  &:link, &:visited {
+    text-decoration: none;
+    color: #888;
+  }
+  &:hover, &:active {
+    color: red;
+  }
+}
