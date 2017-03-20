@@ -1,5 +1,20 @@
 @import "breakpoint";
 
+// colors
+
+$DE_brightyellow: #ffa02f;
+$DE_warmred: #f7403a;
+$DE_turquoise: #00b3be;
+$DE_paleblue: #64a0c8;
+$DE_sage: #6a8a7f;
+$DE_darkgrey: #51626f;
+
+$DE_grey0: #394147;
+$DE_grey1: #55626e;
+$DE_grey2: #889199;
+$DE_grey3: #bac0c5;
+$DE_grey4: #dcdfe2;
+
 $desktop_and_up: 960px;
 
 body {
@@ -75,12 +90,15 @@ h1 {
   font-weight: bold;
   font-size: 180%;
   margin: 0 0 1em;
+  color: $DE_brightyellow;
 }
 
 h2 {
-font-weight: bold;
+  font-weight: bold;
   font-size: 160%;
   margin: 0 0 1em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid $DE_brightyellow;
 }
 
 h3 {
@@ -207,11 +225,13 @@ table {
   h2 {
     font-weight: bold;
     margin: 0;
-    background: #bbb;
+    background: $DE_turquoise;
     padding: 10px;
+    border-bottom: none;
+    color: white;
   }
   .inner {
-    background: #eee;
+    background: $DE_grey4;
     padding: 10px;
   }
  }
@@ -240,5 +260,15 @@ a.concertina-return {
   }
   &:hover, &:active {
     color: red;
+  }
+}
+
+/* prototypes homepage */
+
+#prototypes-list {
+  li {
+    h2 {
+      border-bottom: none;
+    }
   }
 }

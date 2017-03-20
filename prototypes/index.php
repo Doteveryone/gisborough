@@ -3,7 +3,7 @@
 <div id="main">
   <h1>Prototypes</h2>
 
-    <ul id="prototype=list">
+    <ul id="prototypes-list">
       <li>
         <h2><a href="upload.php">What happens when I upload a photo?</a></h2>
       </li>
