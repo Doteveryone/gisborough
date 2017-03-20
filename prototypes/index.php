@@ -8,7 +8,7 @@
         <h2><a href="upload.php">What happens when I upload a photo?</a></h2>
       </li>
       <li>
-        <h2><a href="sharing.php">Sharing content</a></h2>
+        <h2><a href="sharing.php">What happens when I share my photo?</a></h2>
       </li>
     </ul>
 
