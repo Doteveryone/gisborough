@@ -4,7 +4,7 @@
 
 <h1>What happens when I share my photo?</h1>
 
-<p class='standfirst'>You might be hoping your Weather Watchers photo appears on a BBC Weather report – but did you know, your potential audience is already far bigger?</p>
+<p class='standfirst'>You might be hoping your Weather Watchers photo appears on a BBC Weather report &mdash; but did you know, your potential audience is already far bigger?</p>
 
 <p>Lots of people all over the world could see your photo right now, because it sits on a web page that's open for everyone to view.</p>
 
@@ -17,7 +17,7 @@
 
 <p>You can send your friends and family this URL and they can use it to look at your photo online, from anywhere in the world. By doing this, you're sharing your photo.</p>
 
-<p>Anybody can link to any page on the web – you don't need permission to do it.</p>
+<p>Anybody can link to any page on the web &mdash; you don't need permission to do it.</p>
 
 <p>You can share other people's photos or posts, and anyone can share yours. The people who see those links might then share it with even more people.</p>
 
@@ -25,7 +25,7 @@
 
 <h2>How do I share my photo?</h2>
 
-<p class='standfirst'>URLs are often long and complicated, like the example above – but sharing them is simple. Two of the easiest ways are manually and with share buttons.</p>
+<p class='standfirst'>URLs are often long and complicated, like the example above &mdash; but sharing them is simple. Two of the easiest ways are manually and with share buttons.</p>
 
 <h3>Manually</h3>
 
@@ -66,7 +66,7 @@
 
 <p class='standfirst'>When you copy and send the URL of your image to someone, they'll click on it and be taken to the exact address in their own browser. They're seeing the same page, not a copy.</p>
 
-<p>Content on Weather Watchers, including your photo, is public – people don't need to log into the site to see it.</p>
+<p>Content on Weather Watchers, including your photo, is public &mdash; people don't need to log into the site to see it.</p>
 
 <p>This is why it's worth considering what's in your photo when you post it. Are you showing other people's faces without their permission, or perhaps showing exactly where you live? That will be visible all around the world.</p>
 

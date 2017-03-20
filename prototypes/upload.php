@@ -5,7 +5,7 @@
 
 <h1>What happens when I upload a photo?</h1>
 
-<p class='standfirst'>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet – you're actually part of it.</p>
+<p class='standfirst'>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet &mdash; you're actually part of it.</p>
 
 <p>The internet is a network of millions of computers and devices, all connected to each other. When you go online, your computer joins this network too.</p>
 
@@ -22,7 +22,7 @@
   The rules for where to send it and how are called <abbr title="Transmission Control Protocol / Internet Protocol">TCP/IP</abbr> (transmission control protocol / internet protocol).
 </p>
 
-<p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' – all within milliseconds.</p>
+<p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' &mdash; all within milliseconds.</p>
 
 <h2>What is sent?</h2>
 <p class='standfirst'>The most obvious data you send when you post your report is your image, your weather observations, and anything you write in the fields on the form.</p>
@@ -40,7 +40,7 @@
 
 <p>The domain is a friendly name for the computer we're sending it to. The path describes where on that computer to send it.</p>
 
-<p>To send your data, your device needs to know the domain's <abbr title="Internet Protocol">IP</abbr> (internet protocol) address. This is a unique string of numbers, and every device on the internet has one – including yours.</p>
+<p>To send your data, your device needs to know the domain's <abbr title="Internet Protocol">IP</abbr> (internet protocol) address. This is a unique string of numbers, and every device on the internet has one &mdash; including yours.</p>
 
 <p>Your device finds out the BBC's IP address by sending a request to a system that records all IP addresses, called the domain name system (<abbr title="Domain Name System">DNS</abbr>).</p>
 
