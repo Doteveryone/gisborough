@@ -42,6 +42,14 @@ body {
 
 /*Typography*/
 
+a:link, a:visited {
+  color: $DE_turquoise;
+}
+
+a:hover, a:active {
+  color: $DE_warmred;
+}
+
 p.standfirst {
   font-size: 140%;
 }
@@ -243,13 +251,13 @@ table {
   h2 {
     font-weight: bold;
     margin: 0;
-    background: $DE_turquoise;
+    background: $DE_brightyellow;
     padding: 10px;
     border-bottom: none;
     color: white;
   }
   .inner {
-    background: $DE_grey4;
+    background: #f3f3f3;
     padding: 10px;
   }
  }

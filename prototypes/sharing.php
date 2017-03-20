@@ -67,21 +67,28 @@
 
 <p>This is why it's worth considering what's in your photo when you post it. Are you showing other people's faces without their permission, or perhaps showing exactly where you live? That will be visible all around the world.</p>
 
-<h2>Why doesn't a link work?</h2>
+<div class='boxout'>
+  <h2>Why doesn't a link work?</h2>
+  <div class='inner'>
 
-<p class='standfirst'>Sometimes you'll click a link but won't be able to view the page it takes you to.</p>
+    <p class=''>Sometimes you'll click a link but won't be able to view the page it takes you to.</p>
 
-<p>This might be because you need to be logged into that website, or to be a specific type of user (for example, someone's Facebook friend, or a specific customer).</p>
+    <p>This might be because you need to be logged into that website, or to be a specific type of user (for example, someone's Facebook friend, or a specific customer).</p>
 
-<p>Other reasons a link might not work are because content has been deleted, the website it's on is broken, or characters are missing or wrong in the URL you've clicked.</p>
+    <p>Other reasons a link might not work are because content has been deleted, the website it's on is broken, or characters are missing or wrong in the URL you've clicked.</p>
+  </div>
+</div>
 
-<h2>Why does a link look different on the page?</h2>
+<div class='boxout'>
+  <h2>Why does a link look different on the page?</h2>
+  <div class='inner'>
+    <p class=''>You might see links as coloured URLs like this: <a class="fakelink" href="http://www.bbc.co.uk">www.bbc.co.uk</a>, or as coloured words like this for <a class="fakelink" href="http://www.bbc.co.uk/weatherwatchers">the Weather Watchers page</a>. This colouring shows it's clickable and will take you to a web page.</p>
 
-<p class='standfirst'>You might see links as coloured URLs like this: <a class="fakelink" href="http://www.bbc.co.uk">www.bbc.co.uk</a>, or as coloured words like this for <a class="fakelink" href="http://www.bbc.co.uk/weatherwatchers">the Weather Watchers page</a>. This colouring shows it's clickable and will take you to a web page.</p>
+    <p>Web pages are made in a computer language called <abbr title="HyperText Markup Language">HTML</abbr>, which can be used to connect text on a page to a specific URL.</p>
 
-<p>Web pages are made in a computer language called <abbr title="HyperText Markup Language">HTML</abbr>, which can be used to connect text on a page to a specific URL.</p>
-
-<p>You might see some URLs you paste turn automatically coloured. A lot of software, like Microsoft Word and email programmes, is able to detect that you're referring to a web page and connect to it.</p>
+    <p>You might see some URLs you paste turn automatically coloured. A lot of software, like Microsoft Word and email programmes, is able to detect that you're referring to a web page and connect to it.</p>
+  </div>
+</div>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

@@ -77,15 +77,5 @@
 
 <p>All of this activity happens in milliseconds!</p>
 
-
-Possible boxouts
-How the internet is a chain of linked computers – not just yours and the BBC's.
-  (*this is why it if the internet breaks, it's probably not your fault)
-
-
-
-
-
-
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>
