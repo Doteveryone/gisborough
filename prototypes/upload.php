@@ -65,8 +65,9 @@
 
 <p>Your packets can take lots of possible routes through the internet to reach the BBC, so TCP/IP guarantees they are all delivered, and in the order they were sent.</p>
 
-<div class='image-block'>
+<div style='width: 610px; margin: 0 auto 10px;' class='image-block'>
   <img src="images/upload/tcpip.png" />
+  <p class='caption'>TCP/IP in action.</p>
 </div>
 
 
