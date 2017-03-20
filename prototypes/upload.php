@@ -17,19 +17,6 @@
 
 <p>To be part of the internet, all devices (including yours) have to follow rules about sending information.</p>
 
-<div class='boxout side right'>
-  <h2>Breaking the chain</h2>
-  <div class='inner'>
-    <p>If the internet is a network of devices, what happens when a link in that network breaks?</p>
-
-    <p>Often, not a lot: because there are many routes to the same direction, your data takes a different route.</p>
-
-    <p>Sometimes, though, if a key connection in the network breaks, than that can disrupt your access to the internet. If you've ever lost your internet connection at home, it might because of any one of the links - not necessarily the one leaving your house.</p>
-
-    <p>The number of possible connections makes the internet resilient - but if a key connection goes down that a country or company relies on, it can impact lots of people's access. If your connection breaks, it may well not be your fault!</p>
-  </div>
-</div>
-
 <p>
   The rules for what format to send data in are called <abbr title="HyperText Transfer Protocol">HTTP</abbr> (hypertext transfer protocol).<br/>
   The rules for where to send it and how are called <abbr title="Transmission Control Protocol / Internet Protocol">TCP/IP</abbr> (transmission control protocol / internet protocol).
@@ -77,6 +64,19 @@
 <p>The software stores your photo, weather observations, and account details in a structured way, so the Weather Watchers site can access and link it later. (For example, it can link your location data later to create a list of 'Photos near you' featuring your image.)</p>
 
 <p>All of this activity happens in milliseconds!</p>
+
+<div class='boxout'>
+  <h2>When 'the internet breaks'</h2>
+  <div class='inner'>
+    <p>If the internet is a network of devices, what happens when a link in that network breaks?</p>
+
+    <p>Often, not a lot: because there are many routes to the same direction, your data takes a different route.</p>
+
+    <p>Sometimes, though, if a key connection in the network breaks, than that can disrupt your access to the internet. If you've ever lost your internet connection at home, it might because of any one of the links - not necessarily the one leaving your house.</p>
+
+    <p>The number of possible connections makes the internet resilient - but if a key connection goes down that a country or company relies on, it can impact lots of people's access. If your connection breaks, it may well not be your fault!</p>
+  </div>
+</div>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>
