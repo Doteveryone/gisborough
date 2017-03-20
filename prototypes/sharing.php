@@ -10,6 +10,9 @@
 
 <p>To see your photo, people have to visit the unique address at the top of the page. This is called a <abbr title="Uniform Resource Locator">URL</abbr>.</p>
 
+<p>
+  <img src="images/sharing/bbc_url.png "/>
+</p>
 
 <p>You can send your friends and family this URL and they can use it to look at your photo online, from anywhere in the world. By doing this, you're sharing your photo.</p>
 
@@ -35,10 +38,17 @@
 
 <p>Share buttons appear on a lot of web pages to give users a shortcut to sharing their link on other websites.</p>
 
+<p>
+  <img src="images/sharing/share_button.png "/>
+</p>
+
 <p>Go to your Weather Watchers report page (with a URL similar to the example above), and click on the Share icon in the bottom right-hand corner of the image.</p>
 
 <p>A list of places to share will appear. You'll need an account with each of these sites if you want to post there. (You can also copy the link in the bottom field, similar to the instructions above.)</p>
 
+<p>
+  <img src="images/sharing/share_popup.png "/>
+</p>
 
 
 <p>Say you have a Facebook account and want to share your latest Weather Watchers photo there. Click Facebook in the list of sites and a new window will pop up. You might need to log into your account to continue.</p>
