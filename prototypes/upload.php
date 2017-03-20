@@ -76,7 +76,7 @@
     <p>Often, not a lot. There are so many connections, your data will just take a different route. This gives the internet resilience.</p>
     <p>If a key connection in the network breaks, that can disrupt your access to the internet.</p>
     <p>For instance, if you lose your internet connection at home, any one of the connections in the long chain might have broken – not necessarily the one leaving your house.</p>
-    <p>So if your connection breaks while downloading a web page or uploading a photo, it may well not be your fault!</p>
+    <p>So if your connection breaks while downloading a webpage or uploading a photo, it may well not be your fault!</p>
 
   </div>
 

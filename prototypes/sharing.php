@@ -6,13 +6,13 @@
 
 <p class='standfirst'>You might be hoping your Weather Watchers photo appears on a BBC Weather report &mdash; but did you know, your potential audience is already far bigger?</p>
 
-<p>Lots of people all over the world could see your photo right now, because it sits on a web page that's open for everyone to view.</p>
+<p>Lots of people all over the world could see your photo right now, because it sits on a webpage that's open for everyone to view.</p>
 
 <p>To see your photo, people have to visit the unique address at the top of the page. This is called a <abbr title="Uniform Resource Locator">URL</abbr>.</p>
 
 <div class='image-block'>
   <img src="images/sharing/bbc_url.png "/>
-  <p class='caption'>A URL in the browser's address bar.</p>
+  <p class='caption'>A URL in a browser's address bar.</p>
 </div>
 
 <p>You can send your friends and family this URL and they can use it to look at your photo online, from anywhere in the world. By doing this, you're sharing your photo.</p>
@@ -21,7 +21,7 @@
 
 <p>You can share other people's photos or posts, and anyone can share yours. The people who see those links might then share it with even more people.</p>
 
-<p>Sometimes a post will be shared onwards by thousands, occasionally millions, of people. This is what's happened when something goes viral.</p>
+<p>Sometimes a post will be shared onwards by thousands, occasionally millions, of people. This is what happens when something goes viral.</p>
 
 <h2>How do I share my photo?</h2>
 
@@ -37,16 +37,16 @@
 
 <h3>Using a share button</h3>
 
-<p>Share buttons appear on a lot of web pages to give users a shortcut to sharing their link on other websites.</p>
+<p>Share buttons appear on a lot of webpages to give users a shortcut to sharing their link on other websites.</p>
 
 <div class='image-block'>
   <img src="images/sharing/share_button.png "/>
-  <p class='caption'>A share button (bottom right).</p>
+  <p class='caption'>A share button (bottom right) featuring the typical icon.</p>
 </div>
 
 <p>Go to your Weather Watchers report page (with a URL similar to the example above), and click on the Share icon in the bottom right-hand corner of the image.</p>
 
-<p>A list of places to share will appear. You'll need an account with each of these sites if you want to post there. (You can also copy the link in the bottom field, similar to the instructions above.)</p>
+<p>A list of places to share to will appear. You'll need an account with each of these sites if you want to post there. (There's also a link in the bottom field which you can copy and share manually, as above.)</p>
 
 <div class='image-block'>
   <img src="images/sharing/share_popup.png "/>
@@ -58,9 +58,7 @@
 
 <p>After login you'll see a preview of your photo appear above some text that comes from the Weather Watchers site, saying where the photo was taken.</p>
 
-<p>Above the preview, there's also a space for you to add your own comment or description to the post of the photo. Click on the prompt 'Say something about this' if you want to write.</p>
-
-<p>When you're ready, click 'Post to Facebook' and the link to your photo will be shared on your Facebook page.</p>
+<p>Above the preview, there's also a space for you to add your own comment or description before you post the photo.</p>
 
 <h2>What happens when I share my photo?</h2>
 
@@ -85,11 +83,11 @@
 <div class='boxout'>
   <h2>Why does a link look different on the page?</h2>
   <div class='inner'>
-    <p class=''>You might see links as coloured URLs like this: <a class="fakelink" href="http://www.bbc.co.uk">www.bbc.co.uk</a>, or as coloured words like this for <a class="fakelink" href="http://www.bbc.co.uk/weatherwatchers">the Weather Watchers page</a>. This colouring shows it's clickable and will take you to a web page.</p>
+    <p class=''>You might see links as coloured URLs like this: <a class="fakelink" href="http://www.bbc.co.uk">www.bbc.co.uk</a>, or as coloured words like this for <a class="fakelink" href="http://www.bbc.co.uk/weatherwatchers">the Weather Watchers page</a>. This colouring shows it's clickable and will take you to a webpage.</p>
 
-    <p>Web pages are made in a computer language called <abbr title="HyperText Markup Language">HTML</abbr>, which can be used to connect text on a page to a specific URL.</p>
+    <p>Webpages are made in a computer language called <abbr title="HyperText Markup Language">HTML</abbr>, which can be used to connect text on a page to a specific URL.</p>
 
-    <p>You might see some URLs you paste turn automatically coloured. A lot of software, like Microsoft Word and email programmes, is able to detect that you're referring to a web page and connect to it.</p>
+    <p>You might see some URLs you paste turn automatically coloured. A lot of software, like Microsoft Word and email programmes, is able to detect that you're referring to a webpage and connect to it.</p>
   </div>
 </div>
 
