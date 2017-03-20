@@ -4,7 +4,7 @@
 
 <h1>What happens when I share my photo?</h1>
 
-<p>You might be hoping your Weather Watchers photo appears on a BBC Weather report – but did you know, your potential audience is already far bigger?</p>
+<p class='standfirst'>You might be hoping your Weather Watchers photo appears on a BBC Weather report – but did you know, your potential audience is already far bigger?</p>
 
 <p>Lots of people all over the world could see your photo right now, because it sits on a web page that's open for everyone to view.</p>
 
@@ -21,7 +21,7 @@
 
 <h2>How do I share my photo?</h2>
 
-<p>URLs are often long and complicated, like the example above – but sharing them is simple. Two of the easiest ways are manually and with share buttons.</p>
+<p class='standfirst'>URLs are often long and complicated, like the example above – but sharing them is simple. Two of the easiest ways are manually and with share buttons.</p>
 
 <h3>Manually</h3>
 
@@ -51,7 +51,7 @@
 
 <h2>What happens when I share my photo?</h2>
 
-<p>When you copy and send the URL of your image to someone, they'll click on it and be taken to the exact address in their own browser. They're seeing the same page, not a copy.</p>
+<p class='standfirst'>When you copy and send the URL of your image to someone, they'll click on it and be taken to the exact address in their own browser. They're seeing the same page, not a copy.</p>
 
 <p>Content on Weather Watchers, including your photo, is public – people don't need to log into the site to see it.</p>
 
@@ -59,7 +59,7 @@
 
 <h2>Why doesn't a link work?</h2>
 
-<p>Sometimes you'll click a link but won't be able to view the page it takes you to.</p>
+<p class='standfirst'>Sometimes you'll click a link but won't be able to view the page it takes you to.</p>
 
 <p>This might be because you need to be logged into that website, or to be a specific type of user (for example, someone's Facebook friend, or a specific customer).</p>
 
@@ -67,7 +67,7 @@
 
 <h2>Why does a link look different on the page?</h2>
 
-<p>You might see links as coloured URLs like this: <a class="fakelink" href="http://www.bbc.co.uk">www.bbc.co.uk</a>, or as coloured words like this for <a class="fakelink" href="http://www.bbc.co.uk/weatherwatchers">the Weather Watchers page</a>. This colouring shows it's clickable and will take you to a web page.</p>
+<p class='standfirst'>You might see links as coloured URLs like this: <a class="fakelink" href="http://www.bbc.co.uk">www.bbc.co.uk</a>, or as coloured words like this for <a class="fakelink" href="http://www.bbc.co.uk/weatherwatchers">the Weather Watchers page</a>. This colouring shows it's clickable and will take you to a web page.</p>
 
 <p>Web pages are made in a computer language called <abbr title="HyperText Markup Language">HTML</abbr>, which can be used to connect text on a page to a specific URL.</p>
 

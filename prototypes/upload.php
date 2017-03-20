@@ -5,7 +5,7 @@
 
 <h1>What happens when I upload a photo?</h1>
 
-<p>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet – you're actually part of it.</p>
+<p class='standfirst'>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet – you're actually part of it.</p>
 
 <div class='boxout side right'>
   <h2>Breaking the chain</h2>
@@ -34,12 +34,12 @@ PIC: NETWORK
 <p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' – all within milliseconds.</p>
 
 <h2>What is sent?</h2>
-<p>The most obvious data you send when you post your report is your image, your weather observations, and anything you write in the fields on the form.</p>
+<p class='standfirst'>The most obvious data you send when you post your report is your image, your weather observations, and anything you write in the fields on the form.</p>
 
 <p>You're also sending other data you didn't directly type into the form, such as your login identity. On other sites, this other data might be the date and time you make a post, or the clicks you took to arrive on the page.</p>
 
 <h2>Where is it sent?</h2>
-<p>The data is sent to a particular <abbr title="Uniform Resource Locator">URL</abbr>. URLs are like addresses: they can represent the location of a page (like when you share a photo); they can also represent a location to send data to.</p>
+<p class='standfirst'>The data is sent to a particular <abbr title="Uniform Resource Locator">URL</abbr>. URLs are like addresses: they can represent the location of a page (like when you share a photo); they can also represent a location to send data to.</p>
 
 <p>The URL your data is sent to might look like this:</p> 
 
@@ -56,7 +56,7 @@ PIC: NETWORK
 <p>Once the system's reply comes back, your device knows exactly where to send your data.</p>
 
 <h2>How is it sent?</h2>
-<p>Now it's TCP/IP's turn. TCP/IP connects your device and the BBC's, so they can exchange data.</p>
+<p class='standfirst'>Now it's TCP/IP's turn. TCP/IP connects your device and the BBC's, so they can exchange data.</p>
 <p>TCP/IP chunks your data up into small packets and numbers them.</p>
 
 <p>Your packets can take lots of possible routes through the internet to reach the BBC, so TCP/IP guarantees they are all delivered, and in the order they were sent.</p>
@@ -64,7 +64,7 @@ PIC: NETWORK
 <p>[image of data being chopped up into packets and whizzing separately along multiple routes?]</p>
 
 <h2>Arrival</h2>
-<p>Your data packets arrive at the BBC's web server, which recombines them and uploads your data into the Weather Watchers software.</p>
+<p class='standfirst'>Your data packets arrive at the BBC's web server, which recombines them and uploads your data into the Weather Watchers software.</p>
 
 <p>The software stores your photo, weather observations, and account details in a structured way, so the Weather Watchers site can access and link it later. (For example, it can link your location data later to create a list of 'Photos near you' featuring your image.)</p>
 
