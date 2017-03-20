@@ -211,22 +211,40 @@ table tr.even td {
  * Elements
  */
 /* line 213, ../scss/gisborough.scss */
+.image-block {
+  margin: 0 4em 10px;
+  background: #dcdfe2;
+  padding: 10px;
+}
+/* line 218, ../scss/gisborough.scss */
+.image-block img {
+  max-width: 100%;
+}
+/* line 222, ../scss/gisborough.scss */
+.image-block p.caption {
+  font-size: 90%;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* line 231, ../scss/gisborough.scss */
 .boxout {
   margin-bottom: 20px;
 }
-/* line 215, ../scss/gisborough.scss */
+/* line 233, ../scss/gisborough.scss */
 .boxout.side {
   width: 200px;
   float: left;
   margin-right: 20px;
 }
-/* line 220, ../scss/gisborough.scss */
+/* line 238, ../scss/gisborough.scss */
 .boxout.side.right {
   margin-right: 0;
   margin-left: 20px;
   float: right;
 }
-/* line 225, ../scss/gisborough.scss */
+/* line 243, ../scss/gisborough.scss */
 .boxout h2 {
   font-weight: bold;
   margin: 0;
@@ -235,45 +253,45 @@ table tr.even td {
   border-bottom: none;
   color: white;
 }
-/* line 233, ../scss/gisborough.scss */
+/* line 251, ../scss/gisborough.scss */
 .boxout .inner {
   background: #dcdfe2;
   padding: 10px;
 }
 
-/* line 241, ../scss/gisborough.scss */
+/* line 259, ../scss/gisborough.scss */
 .concertina {
   display: none;
 }
 
-/* line 245, ../scss/gisborough.scss */
+/* line 263, ../scss/gisborough.scss */
 a.concertina-link {
   font-weight: bold;
   background: #eee;
   padding: 5px;
 }
-/* line 249, ../scss/gisborough.scss */
+/* line 267, ../scss/gisborough.scss */
 a.concertina-link.selected {
   background: #ccc;
 }
 
-/* line 254, ../scss/gisborough.scss */
+/* line 272, ../scss/gisborough.scss */
 a.concertina-return {
   float: right;
   display: block;
 }
-/* line 257, ../scss/gisborough.scss */
+/* line 275, ../scss/gisborough.scss */
 a.concertina-return:link, a.concertina-return:visited {
   text-decoration: none;
   color: #888;
 }
-/* line 261, ../scss/gisborough.scss */
+/* line 279, ../scss/gisborough.scss */
 a.concertina-return:hover, a.concertina-return:active {
   color: red;
 }
 
 /* prototypes homepage */
-/* line 270, ../scss/gisborough.scss */
+/* line 288, ../scss/gisborough.scss */
 #prototypes-list li h2 {
   border-bottom: none;
 }

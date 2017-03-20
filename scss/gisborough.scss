@@ -208,6 +208,24 @@ table {
  * Elements
  */
 
+// image-block
+
+.image-block {
+  margin: 0 4em 10px;
+  background: $DE_grey4;
+  padding: 10px;
+
+  img {
+    max-width: 100%;
+}
+
+  p.caption {
+    font-size: 90%;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
 // Boxouts
 
 .boxout {

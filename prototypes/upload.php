@@ -7,6 +7,16 @@
 
 <p class='standfirst'>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet – you're actually part of it.</p>
 
+<p>The internet is a network of millions of computers and devices, all connected to each other. When you go online, your computer joins this network too.</p>
+
+<div class='image-block'>
+  <img src="images/upload/the-internet.png" />
+  <p class='caption'>The internet is a network of computers. TODO PLEASE CHANGE</p>
+</div>
+
+
+<p>To be part of the internet, all devices (including yours) have to follow rules about sending information.</p>
+
 <div class='boxout side right'>
   <h2>Breaking the chain</h2>
   <div class='inner'>
@@ -19,12 +29,6 @@
     <p>The number of possible connections makes the internet resilient - but if a key connection goes down that a country or company relies on, it can impact lots of people's access. If your connection breaks, it may well not be your fault!</p>
   </div>
 </div>
-
-<p>The internet is a network of millions of computers and devices, all connected to each other. When you go online, your computer joins this network too.</p>
-
-PIC: NETWORK
-
-<p>To be part of the internet, all devices (including yours) have to follow rules about sending information.</p>
 
 <p>
   The rules for what format to send data in are called <abbr title="HyperText Transfer Protocol">HTTP</abbr> (hypertext transfer protocol).<br/>
