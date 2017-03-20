@@ -65,7 +65,10 @@
 
 <p>Your packets can take lots of possible routes through the internet to reach the BBC, so TCP/IP guarantees they are all delivered, and in the order they were sent.</p>
 
-<p>[image of data being chopped up into packets and whizzing separately along multiple routes?]</p>
+<div class='image-block'>
+  <img src="images/upload/tcpip.png" />
+</div>
+
 
 <h2>Arrival</h2>
 <p class='standfirst'>Your data packets arrive at the BBC's web server, which recombines them and uploads your data into the Weather Watchers software.</p>
