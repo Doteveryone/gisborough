@@ -61,7 +61,7 @@
 
 <div style='width: 610px; margin: 0 auto 10px;' class='image-block'>
   <img src="images/upload/tcpip.png" />
-  <p class='caption'>How TCP/IP sends your photo</p>
+  <p class='caption'>The stages in TCP/IP sending your photo.</p>
 </div>
 
 
