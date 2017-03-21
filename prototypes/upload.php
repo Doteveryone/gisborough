@@ -14,7 +14,6 @@
   <p class='caption'>A simplified look at how your computer, tablet or phone connects with the vast internet network.</p>
 </div>
 
-
 <p>To be part of the internet, all devices (including yours) have to follow rules about sending information.</p>
 
 <p>
@@ -25,7 +24,12 @@
 <p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' &mdash; all within milliseconds.</p>
 
 <h2>What is sent?</h2>
-<p class='standfirst'>The most obvious data you send when you post your report is your image, your weather observations, and anything you write in the fields on the form.</p>
+<p class='standfirst'>The most obvious data you send when you post a Weather Watchers report is your photo, your weather observations, and anything you write in the fields on the form.</p>
+
+<div class='image-block'>
+  <img src="images/upload/weather-watchers-upload.png" />
+  <p class='caption'>How a Weather Watchers report page might look before upload.</p>
+</div>
 
 <p>You're also sending other data you didn't directly type into the form, such as your login identity, so your photo can be linked to your profile.</p>
 
