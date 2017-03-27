@@ -3,7 +3,11 @@
 <div id="main">
 
 
-<h1>What happens when I upload a photo?</h1>
+<div class='sticky-header'>
+  <div class='progbar'>
+  </div>
+  <h1>What happens when I upload a photo?</h1>
+</div>
 
 <p class='standfirst'>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet &mdash; you're actually part of it.</p>
 

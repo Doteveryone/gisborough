@@ -104,6 +104,34 @@ h1 {
   font-size: 180%;
   margin: 0 0 1em;
   color: $DE_brightyellow;
+
+}
+
+
+.sticky-header {
+  width: 960px;
+  display: block;
+  &.stuck {
+    background: white;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 0 0;
+    h1 {
+      margin: 10px 0;
+    }
+  }
+  h1 {
+    margin: 10px 0 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .progbar {
+    display: block !important;
+    background: #FFF3E4;
+    height: 100%;
+    position: absolute;
+    width: 0;
+    z-index: 1;
+  }
 }
 
 h2 {

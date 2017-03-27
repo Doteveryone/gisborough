@@ -2,7 +2,12 @@
 
 <div id="main">
 
-<h1>What happens when I share my photo?</h1>
+<div class='sticky-header'>
+  <div class='progbar'>
+  </div>
+  <h1>What happens when I share my photo?</h1>
+</div>
+
 
 <p class='standfirst'>You might be hoping your Weather Watchers photo appears on a BBC Weather report &mdash; but did you know, your potential audience is already far bigger?</p>
 
