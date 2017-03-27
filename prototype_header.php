@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php $is_project = false; ?>
 <html>
 <head>
