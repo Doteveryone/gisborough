@@ -9,71 +9,72 @@
   <h1>What happens when I upload a photo?</h1>
 </div>
 
-<p class='standfirst'>When you visit the Weather Watchers site, you aren't just <em>on</em> the internet &mdash; you're actually part of it.</p>
+<p class='standfirst'>When you upload a photo to the the Weather Watchers site, you’re using the internet. But what <em>is</em> the internet?</p>
 
-<p>The internet is a network of millions of computers and devices, all connected to each other. When you go online, your computer joins this network too.</p>
+<p>The internet is a vast network of millions of computers and devices, all connected to each other.</p>
+
+<p>When you go online, your computer joins this network too - and you connect to the BBC some of these other computers on the way.</p>
 
 <div class='image-block'>
-  <img src="images/upload/the-internet.png" />
-  <p class='caption'>A simplified look at how your computer, tablet or phone connects with the vast internet network.</p>
+  <h3 class='caption'>Heading for animation of you joining the internet</h3>
+  <div class='inner'>
+    <img src="images/upload/weather-watchers-upload.png" />
+  </div>
 </div>
 
-<p>To be part of the internet, all devices (including yours) have to follow rules about sending information.</p>
-
-<p>
-  The rules for what format to send data in are called <abbr title="HyperText Transfer Protocol">HTTP</abbr>.
-  The rules for where to send it and how are called <abbr title="Transmission Control Protocol / Internet Protocol">TCP/IP</abbr>.
-</p>
-
-<p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' &mdash; all within milliseconds.</p>
+<p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' — all within milliseconds.</p>
 
 <h2>What is sent?</h2>
-<p class='standfirst'>The most obvious data you send when you post a Weather Watchers report is your photo, your weather observations, and anything you write in the fields on the form.</p>
+<p class='standfirst'>You send the data you can see directly on the upload page, and some data you can’t.</p>
+
+<p></p>
 
 <div class='image-block'>
-  <img src="images/upload/weather-watchers-upload.png" />
-  <p class='caption'>How a Weather Watchers report page might look before upload.</p>
+  <h3 class='caption'>Your Weather Watchers upload also sends your login identity, so your photo can be linked to your profile.</h3>
+  <div class='inner'>
+    <img src="" />
+  </div>
 </div>
 
-<p>You're also sending other data you didn't directly type into the form, such as your login identity, so your photo can be linked to your profile.</p>
-
-<p>On other sites, this data might be the date and time you make a post, or the clicks you took to arrive on the page.</p>
+<p>On other sites, this extra data might be the date and time you make a post, or the clicks you took to arrive on a page.</p>
 
 <h2>Where is it sent?</h2>
-<p class='standfirst'>The data is sent to a particular <abbr title="Uniform Resource Locator">URL</abbr>. URLs are like addresses. They can represent the location of a page (like when you share a photo). They can also represent a location to send data to.</p>
 
-<p>The URL your data is sent to might look like this:</p> 
+<p class='standfirst'>The upload data is sent to a particular <abbr title="Uniform Resource Locator">URL</abbr>, which is like a postal address.</p>
 
-<p><code>http://bbc.co.uk/weatherwatchers/send_report</code></p>
+<p>A URL describes a location on the internet. That could be a page on a website (like the Weather Watchers home page) or a place to send data to.</p>
 
-<p>In that address, "<code>bbc.co.uk</code>" is the domain and <code>/weatherwatchers/send_report</code> is the path.</p>
-
-<p>The domain is a friendly name for the computer we're sending it to. The path describes where on that computer to send it.</p>
-
-<p>To send your data, your device needs to know the domain's <abbr title="Internet Protocol">IP</abbr> (internet protocol) address. This is a unique string of numbers, and every device on the internet has one &mdash; including yours.</p>
-
-<p>Your device finds out the BBC's IP address by sending a request to the <abbr title='Domain Name System'>DNS</abbr> which records all IP addresses.</p>
-
-<p>Once the system's reply comes back, your device knows exactly where to send your data.</p>
-
-<h2>How is it sent?</h2>
-<p class='standfirst'>TCP/IP connects your device and the BBC's, so they can exchange data.</p>
-
-<p>TCP/IP also chunks your data up into lots of very small packets and numbers them.</p>
-
-<p>Your packets can take lots of possible routes through the internet to reach the BBC, so TCP/IP guarantees they are all delivered, and in the order they were sent.</p>
-
-<div style='width: 610px; margin: 0 auto 10px;' class='image-block'>
-  <img src="images/upload/tcpip.png" />
-  <p class='caption'>The stages in TCP/IP sending your photo.</p>
+<div class='image-block'>
+  <h3 class='caption'>The URL your data is sent to might look like this:</h3> 
+  <div class='inner'>
+    <div id="domain-explainer">
+      <pre class='sample-url'><code>http://<span class='domain-name'>bbc.co.uk</span><span class='url'>/weatherwatchers/send_report</span></code></pre>
+    </div>
+  </div>
 </div>
 
+<p>Your device needs to translate the domain into an IP address (internet protocol). This is a unique string of numbers, and every device on the internet has one — including <a href="https://www.google.co.uk/search?hl=&site=&q=what%27s+my+ip+address">yours</a>.</p>
 
-<h2>Arrival</h2>
-<p class='standfirst'>Your data packets arrive at the BBC's web server, which recombines them and uploads your data into the Weather Watchers software.</p>
 
-<p>The software stores your photo, weather observations, and account details in a structured way, so the Weather Watchers site can access and link it later.</p>
+<div class='image-block'>
+  <h3 class='caption'>Your device finds out the BBC's IP address by sending a request to the domain name system (DNS) which records all IP addresses.</h3>
+  <div class='inner'>
+  </div>
+</div>
 
+<h2>How is it sent?</h2>
+<p class='standfirst'>TCP/IP is a set of rules about sending and receiving information, meaning your device and the BBC’s can exchange data.</p>
+
+<div class='image-block'>
+  <h3 class='caption'>Your packets can take lots of possible routes through the internet to reach the BBC. TCP/IP also guarantees they’re all delivered, and in order.</h3>
+  <div class='inner'>
+    <img src="images/upload/tcpip.png" />
+  </div>
+</div>
+
+<h2>And finally...</h2>
+<p class='standfirst'>The web server now uses the path in the URL to direct your upload to the Weather Watchers software.</p>
+<p>This stores your photo, weather observations, and account details in a structured way, so the Weather Watchers site can access and link it later.</p>
 <p>All of this activity happens in milliseconds!</p>
 
 <div class='boxout'>
@@ -87,7 +88,6 @@
     <p>So if your connection breaks while downloading a webpage or uploading a photo, it may well not be your fault!</p>
 
   </div>
-
 
 </div>
 

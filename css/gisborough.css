@@ -259,13 +259,23 @@ table tr.even td {
 .image-block {
   margin: 0 4em 10px;
   background: #dcdfe2;
-  padding: 10px;
 }
-/* line 259, ../scss/gisborough.scss */
+/* line 258, ../scss/gisborough.scss */
 .image-block img {
   max-width: 100%;
 }
-/* line 263, ../scss/gisborough.scss */
+/* line 262, ../scss/gisborough.scss */
+.image-block h3.caption {
+  background: #666;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+/* line 269, ../scss/gisborough.scss */
+.image-block .inner {
+  padding: 10px;
+}
+/* line 273, ../scss/gisborough.scss */
 .image-block p.caption {
   font-size: 90%;
   font-style: italic;
@@ -273,23 +283,23 @@ table tr.even td {
   text-align: center;
 }
 
-/* line 272, ../scss/gisborough.scss */
+/* line 282, ../scss/gisborough.scss */
 .boxout {
   margin-bottom: 20px;
 }
-/* line 274, ../scss/gisborough.scss */
+/* line 284, ../scss/gisborough.scss */
 .boxout.side {
   width: 200px;
   float: left;
   margin-right: 20px;
 }
-/* line 279, ../scss/gisborough.scss */
+/* line 289, ../scss/gisborough.scss */
 .boxout.side.right {
   margin-right: 0;
   margin-left: 20px;
   float: right;
 }
-/* line 284, ../scss/gisborough.scss */
+/* line 294, ../scss/gisborough.scss */
 .boxout h2 {
   font-weight: bold;
   margin: 0;
@@ -298,45 +308,45 @@ table tr.even td {
   border-bottom: none;
   color: white;
 }
-/* line 292, ../scss/gisborough.scss */
+/* line 302, ../scss/gisborough.scss */
 .boxout .inner {
   background: #f3f3f3;
   padding: 10px;
 }
 
-/* line 300, ../scss/gisborough.scss */
+/* line 310, ../scss/gisborough.scss */
 .concertina {
   display: none;
 }
 
-/* line 304, ../scss/gisborough.scss */
+/* line 314, ../scss/gisborough.scss */
 a.concertina-link {
   font-weight: bold;
   background: #eee;
   padding: 5px;
 }
-/* line 308, ../scss/gisborough.scss */
+/* line 318, ../scss/gisborough.scss */
 a.concertina-link.selected {
   background: #ccc;
 }
 
-/* line 313, ../scss/gisborough.scss */
+/* line 323, ../scss/gisborough.scss */
 a.concertina-return {
   float: right;
   display: block;
 }
-/* line 316, ../scss/gisborough.scss */
+/* line 326, ../scss/gisborough.scss */
 a.concertina-return:link, a.concertina-return:visited {
   text-decoration: none;
   color: #888;
 }
-/* line 320, ../scss/gisborough.scss */
+/* line 330, ../scss/gisborough.scss */
 a.concertina-return:hover, a.concertina-return:active {
   color: red;
 }
 
 /* prototypes homepage */
-/* line 329, ../scss/gisborough.scss */
+/* line 339, ../scss/gisborough.scss */
 #prototypes-list li h2 {
   border-bottom: none;
 }

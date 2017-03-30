@@ -254,11 +254,21 @@ table {
 .image-block {
   margin: 0 4em 10px;
   background: $DE_grey4;
-  padding: 10px;
 
   img {
     max-width: 100%;
-}
+  }
+
+  h3.caption {
+    background: #666;
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .inner {
+    padding: 10px;
+  }
 
   p.caption {
     font-size: 90%;
