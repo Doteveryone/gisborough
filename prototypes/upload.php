@@ -31,7 +31,7 @@
 <div class='image-block'>
   <h3 class='caption'>Your Weather Watchers upload also sends your login identity, so your photo can be linked to your profile.</h3>
   <div class='inner'>
-    <img src="images/upload/weather-watchers-upload.png" />
+    <img src="images/upload/form-with-hidden-data.png" />
   </div>
 </div>
 
