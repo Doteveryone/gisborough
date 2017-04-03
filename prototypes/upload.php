@@ -13,11 +13,14 @@
 
 <p>The internet is a vast network of millions of computers and devices, all connected to each other.</p>
 
-<p>When you go online, your computer joins this network too - and you connect to the BBC some of these other computers on the way.</p>
+<p>When you go online, your computer joins this network too - and you connect to the BBC via some of these other computers on the way.</p>
 
 <div class='image-block'>
-  <h3 class='caption'>Heading for animation of you joining the internet</h3>
+  <h3 class='caption'>Your computer connects to the BBC via a network of computers</h3>
   <div class='inner'>
+    <video loop autoplay src="images/upload/internet.mp4" style='max-width: 100%'>
+      When you connect to the internet, you connect to your destination through many other networked computers. Other people are doing this at the same time as you.
+    </video>
   </div>
 </div>
 
