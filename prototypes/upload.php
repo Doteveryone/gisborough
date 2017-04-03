@@ -75,7 +75,9 @@
 <div class='image-block'>
   <h3 class='caption'>Your packets can take lots of possible routes through the internet to reach the BBC. TCP/IP also guarantees they’re all delivered, and in order.</h3>
   <div class='inner'>
-    <img src="images/upload/tcpip.png" />
+    <video loop autoplay src="images/upload/tcpip.mp4" style='max-width: 100%'>
+      Your photo is broken down up into packets which are addressed, and sent to the server.
+    </video>
   </div>
 </div>
 
