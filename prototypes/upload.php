@@ -18,7 +18,6 @@
 <div class='image-block'>
   <h3 class='caption'>Heading for animation of you joining the internet</h3>
   <div class='inner'>
-    <img src="images/upload/weather-watchers-upload.png" />
   </div>
 </div>
 
@@ -32,7 +31,7 @@
 <div class='image-block'>
   <h3 class='caption'>Your Weather Watchers upload also sends your login identity, so your photo can be linked to your profile.</h3>
   <div class='inner'>
-    <img src="" />
+    <img src="images/upload/weather-watchers-upload.png" />
   </div>
 </div>
 
