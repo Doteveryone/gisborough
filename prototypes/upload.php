@@ -47,9 +47,9 @@
 <div class='image-block'>
   <h3 class='caption'>The URL your data is sent to might look like this:</h3> 
   <div class='inner'>
-    <div id="domain-explainer">
-      <pre class='sample-url'><code>http://<span class='domain-name'>bbc.co.uk</span><span class='url'>/weatherwatchers/send_report</span></code></pre>
-    </div>
+    <video loop autoplay src="images/upload/url-animation.mp4" style='max-width: 100%'>
+      In the URL "http://www.bbc.co.uk/weatherwatchers/upload", "www.bbc.co.uk" is the Domain, and "/weatherwatchers/upload" is the Path.
+    </video>
   </div>
 </div>
 
