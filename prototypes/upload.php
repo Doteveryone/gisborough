@@ -59,6 +59,9 @@
 <div class='image-block'>
   <h3 class='caption'>Your device finds out the BBC's IP address by sending a request to the domain name system (DNS) which records all IP addresses.</h3>
   <div class='inner'>
+    <video loop autoplay src="images/upload/dns-lookup.mp4" style='max-width: 100%'>
+      Your device asks the DNS system what the IP address for www.bbc.co.uk is. The DNS system tells your device that it's 212.58.246.91. Your device then sends its full request to 212.58.246.91.
+    </video>
   </div>
 </div>
 
