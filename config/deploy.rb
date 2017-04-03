@@ -1,10 +1,9 @@
 # config valid only for current version of Capistrano
-lock '3.6.1'
+lock '3.8.0'
 
 set :application, 'gisborough'
 set :repo_url, 'git@github.com:infovore/gisborough.git' 
 
-set :scm, :git
 set :ssh_options, { :forward_agent => true }
 
 set :deploy_via, :remote_cache
