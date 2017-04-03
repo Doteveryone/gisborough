@@ -52,6 +52,8 @@
   </div>
 </div>
 
+<p>The domain is a friendly name for the computer we're sending it to. The path describes where on that computer to send it.</p>
+
 <p>Your device needs to translate the domain into an IP address (internet protocol). This is a unique string of numbers, and every device on the internet has one — including <a href="https://www.google.co.uk/search?hl=&site=&q=what%27s+my+ip+address">yours</a>.</p>
 
 
