@@ -36,12 +36,12 @@ $(document).ready(function() {
   }
     
   var progressBar = $('.progbar'), 
-      max = getMax(), 
       value, width;
       
   var getWidth = function() {
     // Calculate width in percentage
     value = getWindowTop();            
+    max = getMax(), 
     width = (value/max) * 100;
     width = width + '%';
     return width;

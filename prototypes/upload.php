@@ -29,8 +29,6 @@
 <h2>What is sent?</h2>
 <p class='standfirst'>You send the data you can see directly on the upload page, and some data you can’t.</p>
 
-<p></p>
-
 <div class='image-block'>
   <h3 class='caption'>Your Weather Watchers upload also sends your login identity, so your photo can be linked to your profile.</h3>
   <div class='inner'>
@@ -101,4 +99,5 @@
 </div>
 
 </div>
+
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>
