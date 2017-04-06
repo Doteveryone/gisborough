@@ -10,6 +10,9 @@
       <li>
         <h2><a href="sharing.php">What happens when I share my photo?</a></h2>
       </li>
+      <li>
+        <h2><a href="privacy.php">Tell me more about security and privacy online</a></h2>
+      </li>
     </ul>
 
 </div>
