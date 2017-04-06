@@ -1,4 +1,17 @@
 $(document).ready(function() {
+  $('video').each(function(i) {
+    $(this).bind('loadeddata', function(e) {
+      console.log('loaded');
+      setVideoShieldHeights();
+    });
+  });
+
+  $(".video-shield").click(function() {
+    $(this).siblings('video')[0].play();
+    $(this).fadeOut();
+  });
+  
+
   $("a.fakelink").click(function() {
     var url = this.href
     if(confirm("Normally, this link would take you straight to '"+url+"'. If you'd like to go there, click 'OK'; otherwise, 'cancel' will keep you on your current page.")) {
@@ -48,7 +61,6 @@ $(document).ready(function() {
   }
       
   var setWidth = function(){
-    console.log(getWidth());
     progressBar.css({ width: getWidth() });
   }
       
@@ -59,3 +71,11 @@ $(document).ready(function() {
     setWidth();
   });
 });
+
+function setVideoShieldHeights() {
+  $(".video-shield").each(function(i) {
+    var videoEl = $(this).siblings('video');
+    var videoElHeight =$(videoEl).height();
+    $(this).css('height', videoElHeight);
+  });
+}

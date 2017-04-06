@@ -18,9 +18,11 @@
 <div class='image-block'>
   <h3 class='caption'>Your computer connects to the BBC via a network of computers</h3>
   <div class='inner'>
-    <video loop autoplay src="images/upload/internet.mp4" style='max-width: 100%'>
+    <video loop src="images/upload/internet.mp4" style='max-width: 100%'>
       When you connect to the internet, you connect to your destination through many other networked computers. Other people are doing this at the same time as you.
     </video>
+    <div class='video-shield'></div>
+    <div class='clear'><!-- clear --></div>
   </div>
 </div>
 
@@ -47,9 +49,11 @@
 <div class='image-block'>
   <h3 class='caption'>The URL your data is sent to might look like this:</h3> 
   <div class='inner'>
-    <video loop autoplay src="images/upload/url-animation.mp4" style='max-width: 100%'>
+    <video loop src="images/upload/url-animation.mp4" style='max-width: 100%'>
       In the URL "http://www.bbc.co.uk/weatherwatchers/upload", "www.bbc.co.uk" is the Domain, and "/weatherwatchers/upload" is the Path.
     </video>
+    <div class='video-shield'></div>
+    <div class='clear'><!-- clear --></div>
   </div>
 </div>
 
@@ -61,9 +65,11 @@
 <div class='image-block'>
   <h3 class='caption'>Your device finds out the BBC's IP address by sending a request to the domain name system (DNS) which records all IP addresses.</h3>
   <div class='inner'>
-    <video loop autoplay src="images/upload/dns-lookup.mp4" style='max-width: 100%'>
+    <video loop src="images/upload/dns-lookup.mp4" style='max-width: 100%'>
       Your device asks the DNS system what the IP address for www.bbc.co.uk is. The DNS system tells your device that it's 212.58.246.91. Your device then sends its full request to 212.58.246.91.
     </video>
+    <div class='video-shield'></div>
+    <div class='clear'><!-- clear --></div>
   </div>
 </div>
 
@@ -73,9 +79,11 @@
 <div class='image-block'>
   <h3 class='caption'>Your packets can take lots of possible routes through the internet to reach the BBC. TCP/IP also guarantees they’re all delivered, and in order.</h3>
   <div class='inner'>
-    <video loop autoplay src="images/upload/tcpip.mp4" style='max-width: 100%'>
+    <video loop src="images/upload/tcpip.mp4" style='max-width: 100%'>
       Your photo is broken down up into packets which are addressed, and sent to the server.
     </video>
+    <div class='video-shield'></div>
+    <div class='clear'><!-- clear --></div>
   </div>
 </div>
 

@@ -112,6 +112,7 @@ h1 {
   width: 960px;
   display: block;
   &.stuck {
+    z-index: 100;
     background: white;
     border-bottom: 1px solid #ccc;
     padding: 0px 0 0;
@@ -254,6 +255,21 @@ table {
 .image-block {
   margin: 0 4em 10px;
   background: $DE_grey4;
+  position: relative;
+  z-index: 1;
+
+  .video-shield {
+    background: url('/prototypes/images/play-icon.png') 50% 50% no-repeat rgba(0,0,0,0.5);
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+
+  video {
+    float: left;
+  }
+
+
 
   img {
     max-width: 100%;
