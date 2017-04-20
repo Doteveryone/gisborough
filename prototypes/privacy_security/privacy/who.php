@@ -4,11 +4,11 @@
 
 <h1>Who you show it to</h1>
 
-Do you want to limit which people can see what you think and do?
+<p>Do you want to limit which people can see what you think and do?</p>
 
-If so, who do you feel comfortable seeing? Friends and family? Friends of your friends too? Anyone anywhere in the world?
+<p>If so, who do you feel comfortable seeing? Friends and family? Friends of your friends too? Anyone anywhere in the world?</p>
 
-Perhaps who can see changes with what you're showing. You have control over what you put out there.
+<p>Perhaps who can see changes with what you're showing. You have control over what you put out there.</p>
 <hr/>
 Aspects of privacy:
 [[What you show|privacyWhat]]

@@ -4,13 +4,13 @@
 
 <h1>How you show it</h1>
 
-You can choose how closely tied your real identity is to your online accounts.
+<p>You can choose how closely tied your real identity is to your online accounts.</p>
 
-Are you using your real name? Are you completely anonymous? Are you using a pseudonym, like a nickname or handle?
+<p>Are you using your real name? Are you completely anonymous? Are you using a pseudonym, like a nickname or handle?</p>
 
-Can people work out who you are from it? Does that matter to you or in your wider life?
+<p>Can people work out who you are from it? Does that matter to you or in your wider life?</p>
 
-Decide what level of identity you're comfortable with, and in which context. You might find it varies.
+<p>Decide what level of identity you're comfortable with, and in which context. You might find it varies.</p>
 <hr/>
 Aspects of privacy:
 [[What you show|privacyWhat]]
