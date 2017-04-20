@@ -4,7 +4,9 @@
 
 <h1>Where you show it</h1>
 
-<p>All of the different sites and apps give you different functions and settings for showing information about yourself and your activities.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>All of the different sites and apps give you different functions and settings for showing information about yourself and your activities.</p>
 
 <p>Explore the options on the sites and apps you use or are interested in using. Which have more of the settings you want? Which are you more comfortable with for what purpose?</p>
 
@@ -12,17 +14,17 @@
 
 <p>Remember: you always have the option of not using a service – the easiest way to keep something private is to not share it anywhere.</p>
 <hr/>
-Aspects of privacy:
-[[What you show|privacyWhat]]
-[[To who|privacyWho]]
-[[How|privacyHow]]
-<em>Where</em>
-[[When|privacyWhen]]
-
-(if: (history:) contains "privacyWhat" and (history:) contains "privacyWho" and (history:) contains "privacyHow" and (history:) contains "privacyWhen")[
+<p><b>Other aspects of privacy:</b><br/>
+  <span class='indent'>
+    <a href="what">What you show</a><br/>
+    <a href="who">To who</a><br/>
+    <a href="how">How</a><br/>
+    <em>Where</em><br/>
+    <a href="when">When</a><br/>
+  </span>
+</p>
 <hr/>
-Of course, sometimes, we hear about [[privacy breaches|breaches]].
-]
+<p>Of course, sometimes, we hear about <a href="breaches">privacy breaches.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

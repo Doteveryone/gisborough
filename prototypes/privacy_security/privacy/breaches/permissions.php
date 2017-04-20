@@ -4,7 +4,9 @@
 
 <h1>Lack of permission</h1>
 
-<p>Other people’s content isn’t yours to use without their permission, and vice versa.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>Other people’s content isn’t yours to use without their permission, and vice versa.</p>
 
 <p>Anyone can link to a Weather Watchers photo without permission, but it shouldn’t be copied for another use without their permission.</p>
 
@@ -19,10 +21,7 @@
   It might just be that <a href="software">the software doesn't work correctly</a>.
 </p>
 
-(if: (history:) contains "breachMistake" and (history:) contains "breachSoftware")[
-<hr/>
-That's everything here. You can go [[back to the start|Home]], or find out more about [[Security|security]].
-]
+<p>When you've finished, you can go <a href="../../">back to the start</a> or find out more about <a href="../../security">Security</a>.
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

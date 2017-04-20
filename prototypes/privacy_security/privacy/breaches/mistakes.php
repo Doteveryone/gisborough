@@ -4,7 +4,9 @@
 
 <h1>Mistakes</h1>
 
-<p>A common mistake is being unaware of things being publicly visible. This is usually because a user hasn’t switched the settings on a site or app to match what they want, giving more people authorisation to view things.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>A common mistake is being unaware of things being publicly visible. This is usually because a user hasn’t switched the settings on a site or app to match what they want, giving more people authorisation to view things.</p>
 
 <p><a href="https://identity.utexas.edu/everyone/how-to-manage-your-social-media-privacy-settings" target="_blank">Find out how to check your settings on social media.</a></p>
 
@@ -18,10 +20,7 @@
   It might just be that <a href="software">the software doesn't work correctly</a>.
 </p>
 
-(if: (history:) contains "breachPermissions" and (history:) contains "breachSoftware")[
-<hr/>
-That's everything here. You can go [[back to the start|Home]], or find out more about [[Security|security]].
-]
+<p>When you've finished, you can go <a href="../../">back to the start</a> or find out more about <a href="../../security">Security</a>.
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

@@ -13,7 +13,8 @@
       <li>
         <h2><a href="/prototypes/privacy">Tell me more about security and privacy online</a></h2>
         <ul>
-          <li><h2><a href="/privacy_security">Tell me more about security and privacy in a non-linear way!</a></h2></li>
+          <li><h2><a href="/prototypes/privacy_security">Tell me more about security and privacy in a non-linear way!</a></h2></li>
+          <li><h2><a href="/privacy_security">Tell me more about security and privacy in a Twine prototype!</a></h2></li>
         </ul>
       </li>
     </ul>

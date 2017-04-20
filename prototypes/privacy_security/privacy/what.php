@@ -4,7 +4,9 @@
 
 <h1>What you show</h1>
 
-<p>How much are you comfortable with others knowing or seeing of your life: what you think and do, who you spend time with, where you go?</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>How much are you comfortable with others knowing or seeing of your life: what you think and do, who you spend time with, where you go?</p>
 
 <p>Consider people: friends, family, acquaintances, teammates; colleagues, bosses, employees.</p>
 
@@ -28,16 +30,17 @@
   <li>What implications might expressing your views online have, beyond just making your point?</li>
 </ul>
 <hr/>
-Other aspects of privacy:
-<em>What you show</em>
-[[To who|privacyWho]]
-[[How|privacyHow]]
-[[Where|privacyWhere]]
-[[When|privacyWhen]]
 
-(if: (history:) contains "privacyWho" and (history:) contains "privacyHow" and (history:) contains "privacyWhere" and (history:) contains "privacyWhen")[
+<p><b>Other aspects of privacy:</b><br/>
+  <span class='indent'>
+    <em>What you show</em><br/>
+    <a href="who">To who</a><br/>
+    <a href="how">How</a><br/>
+    <a href="where">Where</a><br/>
+    <a href="when">When</a><br/>
+  </span>
+</p>
 <hr/>
-Of course, sometimes, we hear about [[privacy breaches|breaches]].
-]
+<p>Of course, sometimes, we hear about <a href="breaches">privacy breaches.</a></p>
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

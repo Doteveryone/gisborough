@@ -4,7 +4,9 @@
 
 <h1>Poor software</h1>
 
-<p>Poorly designed software can make it unclear what’s public and what’s private. Settings and functions might be complicated to use, or it might be difficult to check what’s visible to whom.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>Poorly designed software can make it unclear what’s public and what’s private. Settings and functions might be complicated to use, or it might be difficult to check what’s visible to whom.</p>
 
 <p>Badly made software could have bugs that unintentionally reveal information to the wrong users. These are often caught and fixed, but not always.</p>
 <hr/>
@@ -15,10 +17,6 @@
   It might be that someone's been <a href="permissions">given the wrong permissions</a>.
 </p>
 
-(if: (history:) contains "breachMistake" and (history:) contains "breachPermissions")[
-<hr/>
-That's everything here. You can go [[back to the start|Home]], or find out more about [[Security|security]].
-]
-
+<p>When you've finished, you can go <a href="../../">back to the start</a> or find out more about <a href="../../security">Security</a>.
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

@@ -4,7 +4,9 @@
 
 <h1>Privacy</h1>
 
-<p>Privacy on the internet isn’t something to automatically worry about – it’s something to think about.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>Privacy on the internet isn’t something to automatically worry about – it’s something to think about.</p>
 
 <p>As in your offline life, you decide what you’re comfortable showing or talking about publicly online. It's about what you want to keep secret, and who you want to keep it secret from. </p>
 
@@ -12,7 +14,7 @@
 
 <p>Pick one of the questions above to find out more.</p>
 
-<p>Alternatively, find out about <a href="../security">Security</a></p>
+<p>Alternatively, find out about <a href="../security">Security.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

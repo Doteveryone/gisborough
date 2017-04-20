@@ -4,7 +4,9 @@
 
 <h1>Authorisation: you're allowed to do the thing you want to do</h1>
 
-<p>Authorisation allows or limits what you can do on a website or device once it's authenticated your identity.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>Authorisation allows or limits what you can do on a website or device once it's authenticated your identity.</p>
 
 <p>Some websites, like your bank's, won't let you do anything unless you're logged in.</p>
 
@@ -14,13 +16,7 @@
 <p>The other two components of access security are <a href="identity">Identity</a> and <a href="authentication">Authentication</a>.</p>
 
 <hr/>
-
-<em>Wait, what does that green padlock thingy mean?|transmission</em>
-
-(if: (history:) contains "identity" and (history:) contains "authentication")[
-<hr/>
-When you're happy with all three, you might like to know about things that can go wrong|wrong
-]
+<p>When you're happy with all three, you might like to know about <a href="problems">things that can go wrong.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

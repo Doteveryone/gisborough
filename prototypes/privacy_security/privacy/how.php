@@ -4,7 +4,9 @@
 
 <h1>How you show it</h1>
 
-<p>You can choose how closely tied your real identity is to your online accounts.</p>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+
+<p class='standfirst'>You can choose how closely tied your real identity is to your online accounts.</p>
 
 <p>Are you using your real name? Are you completely anonymous? Are you using a pseudonym, like a nickname or handle?</p>
 
@@ -12,17 +14,18 @@
 
 <p>Decide what level of identity you're comfortable with, and in which context. You might find it varies.</p>
 <hr/>
-Aspects of privacy:
-[[What you show|privacyWhat]]
-[[To who|privacyWho]]
-<em>How</em>
-[[Where|privacyWhere]]
-[[When|privacyWhen]]
 
-(if: (history:) contains "privacyWhat" and (history:) contains "privacyWho" and (history:) contains "privacyWhere" and (history:) contains "privacyWhen")[
+<p><b>Other aspects of privacy:</b><br/>
+  <span class='indent'>
+    <a href="what">What you show</a><br/>
+    <a href="who">To who</a><br/>
+    <em>How</em><br/>
+    <a href="where">Where</a><br/>
+    <a href="when">When</a><br/>
+  </span>
+</p>
 <hr/>
-Of course, sometimes, we hear about [[privacy breaches|breaches]].
-]
+<p>Of course, sometimes, we hear about <a href="breaches">privacy breaches.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

@@ -6,7 +6,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
-<p class='standfirst'>People often associate privacy breaches with deliberate attacks.</p>
+<p>People often associate privacy breaches with deliberate attacks.</p>
 
 <p>But privacy is about people’s choices, so privacy breaches are often down to human error.</p>
 
