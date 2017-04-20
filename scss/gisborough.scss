@@ -257,6 +257,7 @@ table {
   background: $DE_grey4;
   position: relative;
   z-index: 1;
+  text-align: center;
 
   .video-shield {
     background: url('/prototypes/images/play-icon.png') 50% 50% no-repeat rgba(0,0,0,0.5);
@@ -269,10 +270,10 @@ table {
     float: left;
   }
 
-
-
   img {
     max-width: 100%;
+    margin: 0 auto;
+    display: block;
   }
 
   h3.caption {
