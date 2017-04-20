@@ -140,7 +140,7 @@
 
     <p>Some sites and apps have terms and conditions on the use of members' content. Copyright law also applies, just as it does to offline creative outputs.</p>
 
-    <p>There are exceptions for <a href="https://en.wikipedia.org/wiki/Creative_Commons"Creative Commons</a> and public domain content. If you're in doubt, don't copy.</p>
+    <p>There are exceptions for <a href="https://en.wikipedia.org/wiki/Creative_Commons"Creative Commons</a> and public domain content. If you're in doubt, don't copy.</a></p>
 
     <h3>Poor software</h3>
 
