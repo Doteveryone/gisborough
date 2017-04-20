@@ -2,6 +2,7 @@
 <?php $is_project = false; ?>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Gisborough</title>
 
   <link rel="stylesheet" type="text/css" href="/css/reset.css">
