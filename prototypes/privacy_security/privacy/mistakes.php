@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Mistakes</h1>
 
 A common mistake is being unaware of things being publicly visible. This is usually because a user hasn’t switched the settings on a site or app to match what they want, giving more people authorisation to view things.
@@ -16,3 +20,6 @@ It might just be that [[the software doesn't work correctly|breachSoftware]].
 <hr/>
 That's everything here. You can go [[back to the start|Home]], or find out more about [[Security|security]].
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

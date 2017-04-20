@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>What can go wrong?</h1>
 
 Sometimes, there can be problems with security:
@@ -11,3 +15,6 @@ Sometimes, there can be problems with security:
 [[Find out about Privacy|privacy]]
 
 [[Go back home|Home]]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

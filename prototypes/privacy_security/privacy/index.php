@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Privacy</h1>
 
 Privacy on the internet isn’t something to automatically worry about – it’s something to think about.
@@ -9,3 +13,6 @@ As in your offline life, you decide what you’re comfortable showing or talking
 Pick one of the questions above to find out more.
 
 Alternatively, find out about [[Security|security]]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

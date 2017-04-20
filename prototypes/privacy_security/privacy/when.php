@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>When you show it</h1>
 
 Life changes over time, so time can also change your choices about your online privacy.
@@ -19,3 +23,5 @@ Aspects of privacy:
 <hr/>
 Of course, sometimes, [[privacy breaches|breaches]] happen.
 ]
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

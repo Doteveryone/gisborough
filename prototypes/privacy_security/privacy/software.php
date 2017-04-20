@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Poor software</h1>
 
 Poorly designed software can make it unclear what’s public and what’s private. Settings and functions might be complicated to use, or it might be difficult to check what’s visible to whom.
@@ -12,3 +16,6 @@ It might be that someone's been [[given the wrong permissions|breachPermissions]
 <hr/>
 That's everything here. You can go [[back to the start|Home]], or find out more about [[Security|security]].
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

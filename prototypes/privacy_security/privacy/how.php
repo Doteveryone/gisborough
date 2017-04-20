@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>How you show it</h1>
 
 You can choose how closely tied your real identity is to your online accounts.
@@ -19,3 +23,6 @@ Aspects of privacy:
 <hr/>
 Of course, sometimes, we hear about [[privacy breaches|breaches]].
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

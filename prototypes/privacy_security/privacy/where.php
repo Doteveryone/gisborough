@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Where you show it</h1>
 
 All of the different sites and apps give you different functions and settings for showing information about yourself and your activities.
@@ -19,3 +23,6 @@ Aspects of privacy:
 <hr/>
 Of course, sometimes, we hear about [[privacy breaches|breaches]].
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

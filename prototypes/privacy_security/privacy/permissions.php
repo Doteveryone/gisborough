@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Lack of permission</h1>
 
 Other people’s content isn’t yours to use without their permission, and vice versa.
@@ -16,3 +20,6 @@ It might just be that [[the software doesn't work correctly|breachSoftware]].
 <hr/>
 That's everything here. You can go [[back to the start|Home]], or find out more about [[Security|security]].
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

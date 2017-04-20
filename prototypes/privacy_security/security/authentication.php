@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Authentication: you are who you say you are</h1>
 
 Before allowing access to your account, a website will often verify that you are who you say.
@@ -19,3 +23,6 @@ The other two components of access security are [[Identity|identity]] and [[Auth
 <hr/>
 When you're happy with all three, you might like to know about [[things that can go wrong|wrong]]
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

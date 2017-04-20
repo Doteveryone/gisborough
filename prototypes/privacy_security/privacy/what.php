@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>What you show</h1>
 
 How much are you comfortable with others knowing or seeing of your life: what you think and do, who you spend time with, where you go?
@@ -27,3 +31,5 @@ Other aspects of privacy:
 <hr/>
 Of course, sometimes, we hear about [[privacy breaches|breaches]].
 ]
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

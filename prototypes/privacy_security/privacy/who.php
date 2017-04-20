@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Who you show it to</h1>
 
 Do you want to limit which people can see what you think and do?
@@ -17,3 +21,6 @@ Aspects of privacy:
 <hr/>
 Of course, sometimes, we hear about [[privacy breaches|breaches]].
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

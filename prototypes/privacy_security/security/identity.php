@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>Identity: who you are</h1>
 
 Different websites will ask for different combinations of identifying information to create an account identity. This might include email address, username or nickname, real name, postal address, and postcode.
@@ -15,3 +19,6 @@ The other two components of access security are [[Authentication|authentication]
 <hr/>
 When you're happy with all three, you might like to know about [[things that can go wrong|wrong]]
 ]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

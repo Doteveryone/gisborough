@@ -1,3 +1,7 @@
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
+
+<div id="main">
+
 <h1>What about that green padlock symbol?</h1>
 
 You might have noticed the green padlock symbol in your browser bar.
@@ -13,3 +17,6 @@ All e-commerce websites have the green padlock because they ask buyers to send t
 (set: $previous to (history:)'s last)
 
 [[Go back to the previous page.|$previous]]
+
+</div>
+<?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>
