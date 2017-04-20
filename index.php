@@ -4,7 +4,7 @@
   <h1>Gisborough</h1>
 
     <ul>
-      <li><a href="/markup.php">Markup demo</a></li>
+      <li><a href="/markup">Markup demo</a></li>
       <li><a href="/prototypes">Prototypes</a></li>
     </ul>
 
