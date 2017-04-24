@@ -22,8 +22,6 @@ body {
   line-height: 1.6em;
   font-size: 18px;
 
-  border-bottom: 10px solid $DE_turquoise;
-  padding-bottom: 20px;
 }
 
 #top-header {
@@ -38,6 +36,28 @@ body {
     margin: 0 auto;
   }
 }
+
+#footer {
+  background: $DE_turquoise;
+  color: white;
+  margin-top: 20px;
+  font-size: 80%;
+  a {
+    &:link, &:visited {
+      color: white;
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      color: $DE_warmred;
+      text-decoration: underline;
+    }
+  }
+  .inner {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
 
 .clear {
   clear: both;
