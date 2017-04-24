@@ -1,10 +1,17 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy">Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy/breaches">Privacy Breaches</a>
+  &raquo;
+  Poor software
+</div>
 
 <h1>Poor software</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Poorly designed software can make it unclear what’s public and what’s private. Settings and functions might be complicated to use, or it might be difficult to check what’s visible to whom.</p>
 

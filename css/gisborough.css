@@ -430,7 +430,7 @@ a.concertina-return:hover, a.concertina-return:active {
   padding: 0;
   border: none;
   font-size: 120%;
-  background: #00b3be;
+  /*background: $DE_turquoise;*/
 }
 /* line 419, ../scss/gisborough.scss */
 .navigator ul li h2 a {
@@ -439,7 +439,7 @@ a.concertina-return:hover, a.concertina-return:active {
 /* line 421, ../scss/gisborough.scss */
 .navigator ul li h2 a:link, .navigator ul li h2 a:visited {
   text-decoration: none;
-  color: white;
+  /*color: white;*/
 }
 /* line 425, ../scss/gisborough.scss */
 .navigator ul li h2 a:hover, .navigator ul li h2 a:active {
@@ -466,4 +466,10 @@ a.concertina-return:hover, a.concertina-return:active {
 span.indent {
   display: block;
   margin-left: 1em;
+}
+
+/* line 454, ../scss/gisborough.scss */
+.breadcrumbs {
+  font-size: 90%;
+  margin-bottom: 10px;
 }

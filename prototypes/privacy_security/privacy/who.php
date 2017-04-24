@@ -1,10 +1,14 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
-
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy">Privacy</a>
+  &raquo;
+  Who you show it to
+</div>
 <h1>Who you show it to</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Do you want to limit which people can see what you think and do?</p>
 

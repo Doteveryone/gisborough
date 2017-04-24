@@ -1,10 +1,15 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/security">Security</a>
+  &raquo;
+  Authentication
+</div>
 
 <h1>Authentication: you are who you say you are</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Before allowing access to your account, a website will often verify that you are who you say.</p>
 

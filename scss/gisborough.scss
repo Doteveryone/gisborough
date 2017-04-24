@@ -415,12 +415,12 @@ a.concertina-return {
         padding: 0;
         border: none;
         font-size: 120%;
-        background: $DE_turquoise;
+        /*background: $DE_turquoise;*/
         a {
           display: block;
           &:link, &:visited {
             text-decoration: none;
-            color: white;
+            /*color: white;*/
           }
           &:hover, &:active {
             text-decoration: underline;
@@ -449,4 +449,9 @@ a.concertina-return {
 span.indent {
   display: block;
   margin-left: 1em;
+}
+
+.breadcrumbs {
+  font-size: 90%;
+  margin-bottom: 10px;
 }

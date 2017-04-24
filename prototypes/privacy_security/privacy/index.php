@@ -1,10 +1,12 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
-
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  Privacy
+</div>
 <h1>Privacy</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Privacy on the internet isn’t something to automatically worry about – it’s something to think about.</p>
 

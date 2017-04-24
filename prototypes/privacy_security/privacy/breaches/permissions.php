@@ -1,10 +1,17 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy">Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy/breaches">Privacy Breaches</a>
+  &raquo;
+  Lack of permissions
+</div>
 
 <h1>Lack of permission</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Other people’s content isn’t yours to use without their permission, and vice versa.</p>
 

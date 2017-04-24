@@ -1,10 +1,14 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
-
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy">Privacy</a>
+  &raquo;
+  When you show it
+</div>
 <h1>When you show it</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Life changes over time, so time can also change your choices about your online privacy.</p>
 

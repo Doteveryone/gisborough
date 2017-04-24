@@ -1,10 +1,17 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy">Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/privacy/breaches">Privacy Breaches</a>
+  &raquo;
+  Mistakes
+</div>
 
 <h1>Mistakes</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>A common mistake is being unaware of things being publicly visible. This is usually because a user hasn’t switched the settings on a site or app to match what they want, giving more people authorisation to view things.</p>
 

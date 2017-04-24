@@ -2,9 +2,15 @@
 
 <div id="main">
 
-<h1>What can go wrong?</h1>
+  <div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/security">Security</a>
+  &raquo;
+  What can go wrong
+</div>
 
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
+<h1>What can go wrong?</h1>
 
 <p class='standfirst'>Sometimes, there can be problems with security:</p>
 

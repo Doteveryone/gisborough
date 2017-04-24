@@ -1,10 +1,15 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
+<div class='breadcrumbs'>
+  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  &raquo;
+  <a href="/prototypes/privacy_security/security">Security</a>
+  &raquo;
+  Authorisation
+</div>
 
 <h1>Authorisation: you're allowed to do the thing you want to do</h1>
-
-<?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
 
 <p class='standfirst'>Authorisation allows or limits what you can do on a website or device once it's authenticated your identity.</p>
 

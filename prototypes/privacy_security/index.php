@@ -4,8 +4,6 @@
 
   <h1>Security and Privacy</h1>
 
-  <?php include($_SERVER['DOCUMENT_ROOT']."/prototypes/privacy_security/navigator.php"); ?>
-
   <p class='standfirst'>Security and privacy on the internet are sometimes thought of as being the same thing. In reality, they're quite different.</p>
 
   <p>Security is like a lock on a window of your house. You can decide to fit a lock, and who has a key. This controls access to your house.</p>
