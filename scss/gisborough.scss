@@ -175,14 +175,14 @@ h2 {
 }
 
 h3 {
-font-weight: bold;
+  font-weight: bold;
   font-size: 130%;
   margin: 0 0 1em;
 }
 
 h4,h5,h6 {
   font-weight: bold;
-  margin: 0 0 1em;
+  margin: 0 0 10px;
 }
 
 blockquote {
@@ -208,6 +208,12 @@ ul {
   margin: 1em 0;
   li {
     margin: 0 0 1em 2em;
+  }
+  &.tightlist {
+    margin: 0;
+    li {
+      margin: 0 0 5px 2em;
+    }
   }
 }
 

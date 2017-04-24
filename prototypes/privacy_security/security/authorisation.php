@@ -17,11 +17,15 @@
 
 <p>Other websites will let you do some things without being logged in, but allow more once you do. For example, anyone can browse and filter items on eBay, but only logged-in users can bid on them.</p>
 
-<hr/>
-<p>The other two components of access security are <a href="identity">Identity</a> and <a href="authentication">Authentication</a>.</p>
+<h4>Other aspects of security:</h4>
+<ul class='tightlist'>
+  <li><a href='identity'>Identity</a></li>
+  <li><a href='authentication'>Authentication</a></li>
+  <li><strong>Authorisation</strong></li>
+</ul>
 
 <hr/>
-<p>When you're happy with all three, you might like to know about <a href="problems">things that can go wrong.</a></p>
+<p>Like physical security measures, online security isn't failsafe. Find out about <a href="problems">things that can go wrong.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

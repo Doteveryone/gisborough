@@ -10,7 +10,7 @@
 
   <p>Privacy is like a curtain you hang at the window. You can choose when to open or close it, and what you're doing when it's open. The curtain controls what you keep secret in your house.</p>
 
-  <p>Understanding this difference can help you see which elements of your internet presence you have control over, and how you can control your information.</p>
+  <p>Understanding the difference between security and privacy can help you see which elements of your internet presence you have control over, and how you can control your information.</p>
 
   <p><a href="security">Find out more about security.</a></p>
 

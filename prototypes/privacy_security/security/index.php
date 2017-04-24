@@ -9,13 +9,14 @@
 </div>
 
 <h1>Security</h1>
-<p class='standfirst'>Let's talk about access security - the personal security of your accounts - first.</p>
 
-<p>There are three aspects to access security: <a href="identity">identity</a>, <a href="authorisation">authorisation</a>, and <a href="authentication">authentication</a>.</p>
+<p class='standfirst'>There are three aspects to securing access to your logins and online accounts:</p> 
 
-<hr/>
-
-<p>Alternatively, <a href="../privacy">find out about Privacy?</a></p>
+<ul>
+  <li><strong><a href='identity'>Identity</a></strong> - <em>who you are.</em></li>
+  <li><strong><a href='authentication'>Authentication</a></strong> - <em>you are who you say you are.</em></li>
+  <li><strong><a href='authorisation'>Authorisation</a></strong> - <em>you're allowed to do the thing you want to do.</em></li>
+</ul>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>
