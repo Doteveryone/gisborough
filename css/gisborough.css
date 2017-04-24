@@ -3,50 +3,63 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.6em;
   font-size: 18px;
-  border-top: 10px solid #00b3be;
   border-bottom: 10px solid #00b3be;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 31, ../scss/gisborough.scss */
+/* line 29, ../scss/gisborough.scss */
+#top-header {
+  background: #00b3be;
+  height: 76px;
+  padding: 3px 0 0;
+  margin-bottom: 20px;
+}
+/* line 34, ../scss/gisborough.scss */
+#top-header .inner {
+  background: url(/images/de-explains-head.png) no-repeat;
+  width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+/* line 42, ../scss/gisborough.scss */
 .clear {
   clear: both;
   display: block;
 }
 
 /* layout */
-/* line 38, ../scss/gisborough.scss */
+/* line 49, ../scss/gisborough.scss */
 #main {
   margin: 10px auto;
   width: 95%;
   padding: 0 10px;
 }
 @media (min-width: 960px) {
-  /* line 38, ../scss/gisborough.scss */
+  /* line 49, ../scss/gisborough.scss */
   #main {
     width: 960px;
   }
 }
 
 /*Typography*/
-/* line 50, ../scss/gisborough.scss */
+/* line 61, ../scss/gisborough.scss */
 a:link, a:visited {
   color: #00b3be;
 }
 
-/* line 54, ../scss/gisborough.scss */
+/* line 65, ../scss/gisborough.scss */
 a:hover, a:active {
   color: #f7403a;
 }
 
-/* line 58, ../scss/gisborough.scss */
+/* line 69, ../scss/gisborough.scss */
 p.standfirst {
   font-size: 140%;
 }
 
 /* specific to proto */
-/* line 65, ../scss/gisborough.scss */
+/* line 76, ../scss/gisborough.scss */
 #gisborough-menu {
   opacity: 0.8;
   margin: 0 auto 20px;
@@ -58,31 +71,31 @@ p.standfirst {
   padding-right: 10px;
 }
 @media (min-width: 960px) {
-  /* line 65, ../scss/gisborough.scss */
+  /* line 76, ../scss/gisborough.scss */
   #gisborough-menu {
     width: 960px;
   }
 }
 
 /* typography */
-/* line 83, ../scss/gisborough.scss */
+/* line 94, ../scss/gisborough.scss */
 p {
   margin: 0 0 1em;
 }
 
-/* line 91, ../scss/gisborough.scss */
+/* line 102, ../scss/gisborough.scss */
 a:hover, a:active {
   color: red;
   text-decoration: underline;
 }
 
-/* line 97, ../scss/gisborough.scss */
+/* line 108, ../scss/gisborough.scss */
 abbr, acronym {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 102, ../scss/gisborough.scss */
+/* line 113, ../scss/gisborough.scss */
 h1 {
   font-weight: bold;
   font-size: 180%;
@@ -90,29 +103,29 @@ h1 {
   color: #ffa02f;
 }
 
-/* line 111, ../scss/gisborough.scss */
+/* line 122, ../scss/gisborough.scss */
 .sticky-header {
   width: 960px;
   display: block;
 }
-/* line 114, ../scss/gisborough.scss */
+/* line 125, ../scss/gisborough.scss */
 .sticky-header.stuck {
   z-index: 100;
   background: white;
   border-bottom: 1px solid #ccc;
   padding: 0px 0 0;
 }
-/* line 119, ../scss/gisborough.scss */
+/* line 130, ../scss/gisborough.scss */
 .sticky-header.stuck h1 {
   margin: 10px 0;
 }
-/* line 123, ../scss/gisborough.scss */
+/* line 134, ../scss/gisborough.scss */
 .sticky-header h1 {
   margin: 10px 0 20px;
   position: relative;
   z-index: 2;
 }
-/* line 128, ../scss/gisborough.scss */
+/* line 139, ../scss/gisborough.scss */
 .sticky-header .progbar {
   display: block !important;
   background: #FFF3E4;
@@ -122,7 +135,7 @@ h1 {
   z-index: 1;
 }
 
-/* line 138, ../scss/gisborough.scss */
+/* line 149, ../scss/gisborough.scss */
 h2 {
   font-weight: bold;
   font-size: 160%;
@@ -131,32 +144,32 @@ h2 {
   border-bottom: 1px solid #ffa02f;
 }
 
-/* line 146, ../scss/gisborough.scss */
+/* line 157, ../scss/gisborough.scss */
 h3 {
   font-weight: bold;
   font-size: 130%;
   margin: 0 0 1em;
 }
 
-/* line 152, ../scss/gisborough.scss */
+/* line 163, ../scss/gisborough.scss */
 h4, h5, h6 {
   font-weight: bold;
   margin: 0 0 1em;
 }
 
-/* line 157, ../scss/gisborough.scss */
+/* line 168, ../scss/gisborough.scss */
 blockquote {
   color: #555;
   margin: 1em 0;
   padding-left: 1em;
   border-left: 3px solid #ddd;
 }
-/* line 162, ../scss/gisborough.scss */
+/* line 173, ../scss/gisborough.scss */
 blockquote cite {
   font-style: italic;
   color: #777;
 }
-/* line 166, ../scss/gisborough.scss */
+/* line 177, ../scss/gisborough.scss */
 blockquote.large {
   font-size: 180%;
   border-left: none;
@@ -165,41 +178,41 @@ blockquote.large {
   color: #666;
 }
 
-/* line 175, ../scss/gisborough.scss */
+/* line 186, ../scss/gisborough.scss */
 ul {
   list-style: disc;
   margin: 1em 0;
 }
-/* line 178, ../scss/gisborough.scss */
+/* line 189, ../scss/gisborough.scss */
 ul li {
   margin: 0 0 1em 2em;
 }
 
-/* line 183, ../scss/gisborough.scss */
+/* line 194, ../scss/gisborough.scss */
 ol {
   list-style: decimal;
   margin: 1em 0;
 }
-/* line 186, ../scss/gisborough.scss */
+/* line 197, ../scss/gisborough.scss */
 ol li {
   margin: 0 0 1em 2em;
 }
 
-/* line 192, ../scss/gisborough.scss */
+/* line 203, ../scss/gisborough.scss */
 dl dt {
   font-weight: bold;
 }
-/* line 195, ../scss/gisborough.scss */
+/* line 206, ../scss/gisborough.scss */
 dl dd {
   margin: 0 0 0.5em;
 }
 
-/* line 200, ../scss/gisborough.scss */
+/* line 211, ../scss/gisborough.scss */
 code {
   font-family: monospace;
 }
 
-/* line 204, ../scss/gisborough.scss */
+/* line 215, ../scss/gisborough.scss */
 pre {
   font-family: monospace;
   padding: 10px;
@@ -209,46 +222,46 @@ pre {
   overflow: auto;
 }
 
-/* line 213, ../scss/gisborough.scss */
+/* line 224, ../scss/gisborough.scss */
 em, i {
   font-style: italic;
 }
 
-/* line 217, ../scss/gisborough.scss */
+/* line 228, ../scss/gisborough.scss */
 strong, b {
   font-weight: bold;
 }
 
-/* line 221, ../scss/gisborough.scss */
+/* line 232, ../scss/gisborough.scss */
 sub {
   vertical-align: sub;
   font-size: smaller;
 }
 
-/* line 226, ../scss/gisborough.scss */
+/* line 237, ../scss/gisborough.scss */
 sup {
   vertical-align: super;
   font-size: smaller;
 }
 
-/* line 231, ../scss/gisborough.scss */
+/* line 242, ../scss/gisborough.scss */
 table {
   margin: 1em 0;
   border-collapse: collapse;
   border-style: hidden;
 }
-/* line 235, ../scss/gisborough.scss */
+/* line 246, ../scss/gisborough.scss */
 table th {
   font-weight: bold;
   color: #fff;
   background: #666;
 }
-/* line 240, ../scss/gisborough.scss */
+/* line 251, ../scss/gisborough.scss */
 table th, table td {
   padding: 10px;
   border: 1px solid #888;
 }
-/* line 244, ../scss/gisborough.scss */
+/* line 255, ../scss/gisborough.scss */
 table tr.even td {
   background: #eee;
 }
@@ -256,7 +269,7 @@ table tr.even td {
 /*
  * Elements
  */
-/* line 255, ../scss/gisborough.scss */
+/* line 266, ../scss/gisborough.scss */
 .image-block {
   margin: 0 4em 10px;
   background: #dcdfe2;
@@ -264,35 +277,35 @@ table tr.even td {
   z-index: 1;
   text-align: center;
 }
-/* line 262, ../scss/gisborough.scss */
+/* line 273, ../scss/gisborough.scss */
 .image-block .video-shield {
   background: url("/prototypes/images/play-icon.png") 50% 50% no-repeat rgba(0, 0, 0, 0.5);
   position: relative;
   width: 100%;
   z-index: 2;
 }
-/* line 269, ../scss/gisborough.scss */
+/* line 280, ../scss/gisborough.scss */
 .image-block video {
   float: left;
 }
-/* line 273, ../scss/gisborough.scss */
+/* line 284, ../scss/gisborough.scss */
 .image-block img {
   max-width: 100%;
   margin: 0 auto;
   display: block;
 }
-/* line 279, ../scss/gisborough.scss */
+/* line 290, ../scss/gisborough.scss */
 .image-block h3.caption {
   background: #666;
   color: white;
   padding: 10px;
   margin: 0;
 }
-/* line 286, ../scss/gisborough.scss */
+/* line 297, ../scss/gisborough.scss */
 .image-block .inner {
   padding: 10px;
 }
-/* line 290, ../scss/gisborough.scss */
+/* line 301, ../scss/gisborough.scss */
 .image-block p.caption {
   font-size: 90%;
   font-style: italic;
@@ -300,24 +313,24 @@ table tr.even td {
   text-align: center;
 }
 
-/* line 299, ../scss/gisborough.scss */
+/* line 310, ../scss/gisborough.scss */
 .boxout {
   margin-bottom: 20px;
   clear: both;
 }
-/* line 302, ../scss/gisborough.scss */
+/* line 313, ../scss/gisborough.scss */
 .boxout.side {
   width: 200px;
   float: left;
   margin-right: 20px;
 }
-/* line 307, ../scss/gisborough.scss */
+/* line 318, ../scss/gisborough.scss */
 .boxout.side.right {
   margin-right: 0;
   margin-left: 20px;
   float: right;
 }
-/* line 312, ../scss/gisborough.scss */
+/* line 323, ../scss/gisborough.scss */
 .boxout h2 {
   font-weight: bold;
   margin: 0;
@@ -326,81 +339,130 @@ table tr.even td {
   border-bottom: none;
   color: white;
 }
-/* line 320, ../scss/gisborough.scss */
+/* line 331, ../scss/gisborough.scss */
 .boxout .inner {
   background: #f3f3f3;
   padding: 10px;
 }
-/* line 324, ../scss/gisborough.scss */
+/* line 335, ../scss/gisborough.scss */
 .boxout .inner img.blkimg {
   display: block;
   margin: 5px auto;
 }
-/* line 328, ../scss/gisborough.scss */
+/* line 339, ../scss/gisborough.scss */
 .boxout .inner img.blkimg.border {
   border: 1px solid #888;
 }
 
-/* line 337, ../scss/gisborough.scss */
+/* line 348, ../scss/gisborough.scss */
 .concertina {
   display: none;
 }
 
-/* line 341, ../scss/gisborough.scss */
+/* line 352, ../scss/gisborough.scss */
 a.concertina-link {
   font-weight: bold;
   background: #eee;
   padding: 5px;
 }
-/* line 345, ../scss/gisborough.scss */
+/* line 356, ../scss/gisborough.scss */
 a.concertina-link.selected {
   background: #ccc;
 }
 
-/* line 350, ../scss/gisborough.scss */
+/* line 361, ../scss/gisborough.scss */
 a.concertina-return {
   float: right;
   display: block;
 }
-/* line 353, ../scss/gisborough.scss */
+/* line 364, ../scss/gisborough.scss */
 a.concertina-return:link, a.concertina-return:visited {
   text-decoration: none;
   color: #888;
 }
-/* line 357, ../scss/gisborough.scss */
+/* line 368, ../scss/gisborough.scss */
 a.concertina-return:hover, a.concertina-return:active {
   color: red;
 }
 
 /* prototypes homepage */
-/* line 366, ../scss/gisborough.scss */
+/* line 377, ../scss/gisborough.scss */
 #prototypes-list li h2 {
   border-bottom: none;
 }
 
-/* line 374, ../scss/gisborough.scss */
+/* line 385, ../scss/gisborough.scss */
 .navigator {
-  display: none;
   background: #f3f3f3;
-  border: 5px solid #ffa02f;
-  padding: 5px 5px 0 0;
+  border: 2px solid #bac0c5;
+  /*border: 2px solid #ccc;*/
+  /*padding: 10px;*/
   float: right;
   margin: 0 0 20px 20px;
 }
-/* line 381, ../scss/gisborough.scss */
+/* line 392, ../scss/gisborough.scss */
 .navigator ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  line-height: 1.3;
+  line-height: 1.4;
 }
-/* line 386, ../scss/gisborough.scss */
+/* line 399, ../scss/gisborough.scss */
+.navigator ul:first-child > li {
+  margin: 0;
+}
+/* line 404, ../scss/gisborough.scss */
 .navigator ul li {
   margin: 0 0 0 15px;
   padding: 0;
 }
+/* line 407, ../scss/gisborough.scss */
+.navigator ul li ul {
+  padding-right: 5px;
+}
+/* line 410, ../scss/gisborough.scss */
+.navigator ul li a {
+  padding: 5px;
+}
+/* line 413, ../scss/gisborough.scss */
+.navigator ul li h2 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 120%;
+  background: #00b3be;
+}
+/* line 419, ../scss/gisborough.scss */
+.navigator ul li h2 a {
+  display: block;
+}
+/* line 421, ../scss/gisborough.scss */
+.navigator ul li h2 a:link, .navigator ul li h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+/* line 425, ../scss/gisborough.scss */
+.navigator ul li h2 a:hover, .navigator ul li h2 a:active {
+  text-decoration: underline;
+  color: #f7403a;
+}
+/* line 431, ../scss/gisborough.scss */
+.navigator ul li h3 {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* line 437, ../scss/gisborough.scss */
+.navigator ul li h3 a:link, .navigator ul li h3 a:visited {
+  text-decoration: none;
+}
+/* line 440, ../scss/gisborough.scss */
+.navigator ul li h3 a:hover, .navigator ul li h3 a:active {
+  text-decoration: underline;
+}
 
-/* line 393, ../scss/gisborough.scss */
+/* line 449, ../scss/gisborough.scss */
 span.indent {
   display: block;
   margin-left: 1em;

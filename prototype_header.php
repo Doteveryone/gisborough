@@ -12,3 +12,7 @@
   <script type="text/javascript" src="/js/gisborough.js"></script>
 </head>
 <body>
+  <div id='top-header'>
+    <div class='inner'></div>
+  </div>
+
