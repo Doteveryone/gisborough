@@ -27,6 +27,14 @@
   </li>
 </ul>
 
+<div class='boxout'>
+  <h2>If you've seen this icon in your browser:</h2>
+  <div class='inner'>
+    <p><img class='blkimg' src='/images/privacy/paypal-padlock.png' /></p>
+    <p>Find out what <a href="padlock">the green padlock means.</a></p>
+  </div>
+</div>
+
 <p>Alternatively, find out about <a href="../privacy">Privacy.</a></p>
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

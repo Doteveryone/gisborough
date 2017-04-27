@@ -21,12 +21,15 @@
 
 <p>Very occasionally you might be able to do things on a site that you should be blocked from. This could be because there are mistakes or bugs in the software that its engineers need to fix. It might be that someone administrating the software gave you too many permissions. Or it could just be a friend may have chosen to share social media post with too wide a group.</p>
 
+<hr/>
+
 <h4>Other aspects of security:</h4>
 <ul class='tightlist'>
   <li><a href='identity'>Identity</a> - <em>who you are</em></li>
   <li><a href='authentication'>Authentication</a> - <em>you are who you say you are</em></li>
   <li>Authorisation - <em>you can do the thing you want to do</em></li>
 </ul>
+<p>Or find out <a href="padlock">what the green padlock in your browser means.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

@@ -24,6 +24,7 @@
 
 <p>People can make mistakes typing or remembering their email address. If theirs happens to be similar to yours, they could unintentionally create an account tied to your address. As a result, you might get automatic emails from services you didn't sign up to. You can safely ignore these &ndash; it's as if you received a call from a wrong number.</p>
 
+<hr/>
 
 <h4>Other aspects of security:</h4>
 <ul class='tightlist'>
@@ -31,6 +32,7 @@
   <li><a href='authentication'>Authentication</a> - <em>you are who you say you are</em></li>
   <li><a href='authorisation'>Authorisation</a> - <em>you can do the thing you want to do</em></li>
 </ul>
+<p>Or find out <a href="padlock">what the green padlock in your browser means.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

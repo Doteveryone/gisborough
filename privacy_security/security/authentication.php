@@ -23,12 +23,15 @@
 
 <p>Somebody could get hold of your password and access your identity. This is why you should use a different password on every account, and never write passwords down. A password manager like <a href="https://1password.com/">1Password</a> or <a href="https://www.lastpass.com/">LastPass</a> is really helpful here.</p>
 
+<hr/>
+
 <h4>Other aspects of security:</h4>
 <ul class='tightlist'>
   <li><a href='identity'>Identity</a> - <em>who you are</em></li>
   <li><strong>Authentication</strong> - <em>you are who you say you are</em></li>
   <li><a href='authorisation'>Authorisation</a> - <em>you can do the thing you want to do</em></li>
 </ul>
+<p>Or find out <a href="padlock">what the green padlock in your browser means.</a></p>
 
 </div>
 
