@@ -3,7 +3,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Gisborough</title>
+
+  <?php if(!isset($pagetitle)) { $pagetitle="";} ?>
+  <title><?php echo $pagetitle; ?>Doteveryone explains</title>
 
   <link rel="stylesheet" type="text/css" href="/css/reset.css">
   <link rel="stylesheet" type="text/css" href="/css/gisborough.css">

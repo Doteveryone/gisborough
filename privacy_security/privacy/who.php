@@ -1,3 +1,4 @@
+<?php $pagetitle = "Who you show information to : Privacy : Security and Privacy : "; ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">

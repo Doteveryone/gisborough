@@ -1,3 +1,4 @@
+<?php $pagetitle = "What happens when I upload a photo? : "; ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
