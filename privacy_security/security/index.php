@@ -35,6 +35,8 @@
   </div>
 </div>
 
+<hr/>
+
 <p>Alternatively, find out about <a href="../privacy">Privacy.</a></p>
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>
