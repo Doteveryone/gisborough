@@ -77,7 +77,7 @@
 <p class='standfirst'>TCP/IP is a set of rules about sending and receiving information, meaning your device and the BBC’s can exchange data.</p>
 
 <div class='image-block'>
-  <h3 class='caption'>Your packets can take lots of possible routes through the internet to reach the BBC. TCP/IP also guarantees they’re all delivered, and in order.</h3>
+  <h3 class='caption'>Your information can take a lot of possible routes through the internet, so TCP/IP also guarantees that it arrives complete.</h3>
   <div class='inner'>
     <video loop src="images/upload/tcpip.mp4" style='max-width: 100%'>
       Your photo is broken down up into packets which are addressed, and sent to the server.
