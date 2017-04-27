@@ -57,7 +57,7 @@
 <div class='boxout'>
   <h2>Transmission security</h2>
   <div class='inner'>
-    <p><img class='blkimg border' src="/prototypes/images/privacy/paypal-padlock.png" /></p>
+    <p><img class='blkimg border' src="/images/privacy/paypal-padlock.png" /></p>
     <p>You might have noticed the green padlock symbol in your browser bar.</p>
 
     <p>This symbol means that all of the computers that are part of the network leading to an end website, are sending data securely.</p>

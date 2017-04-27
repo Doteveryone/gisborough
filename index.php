@@ -1,11 +1,18 @@
-<?php include($_SERVER['DOCUMENT_ROOT']."/header.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/prototype_header.php"); ?>
 
 <div id="main">
-  <h1>Gisborough</h1>
+  <h1>Prototypes</h2>
 
-    <ul>
-      <li><a href="/markup">Markup demo</a></li>
-      <li><a href="/prototypes">Prototypes</a></li>
+    <ul id="prototypes-list">
+      <li>
+        <h2><a href="/upload">What happens when I upload a photo?</a></h2>
+      </li>
+      <li>
+        <h2><a href="/sharing">What happens when I share my photo?</a></h2>
+      </li>
+      <li>
+        <h2><a href="/privacy_security">Tell me more about security and privacy online</a></h2>
+      </li>
     </ul>
 
 </div>

@@ -2,7 +2,7 @@
 
 <div id="main">
 <div class='breadcrumbs'>
-  <a href="/prototypes/privacy_security">Security and Privacy</a>
+  <a href="/privacy_security">Security and Privacy</a>
   &raquo;
   Privacy
 </div>
