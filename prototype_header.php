@@ -13,6 +13,6 @@
 </head>
 <body>
   <div id='top-header'>
-    <div class='inner'></div>
+    <div class='inner'><a class='homelink' href="/"><span>doteveryone explains</span></a></div>
   </div>
 
