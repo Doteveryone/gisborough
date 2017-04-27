@@ -6,15 +6,15 @@
   &raquo;
   <a href="/prototypes/privacy_security/privacy">Privacy</a>
   &raquo;
-  Where you show it
+  Where you show information
 </div>
-<h1>Where you show it</h1>
+<h1>Privacy: where you show information</h1>
 
 <p class='standfirst'>All of the different sites and apps give you different functions and settings for showing information about yourself and your activities.</p>
 
-<p>Explore the options on the sites and apps you use or are interested in using. Which have more of the settings you want? Which are you more comfortable with for what purpose?</p>
+<p>Explore the options on the sites and apps you use or are interested in using. Which have more of the settings you want? Which sites and apps are you more comfortable with, and for what purpose?</p>
 
-<p><a href="https://identity.utexas.edu/everyone/how-to-manage-your-social-media-privacy-settings" target="_blank">Find out how to check your settings on social media.</a></p>
+<p>Find out how to <a href="https://identity.utexas.edu/everyone/how-to-manage-your-social-media-privacy-settings" target="_blank">check your settings on social media.</a></p>
 
 <p>Remember: you always have the option of not using a service – the easiest way to keep something private is to not share it anywhere.</p>
 <hr/>
@@ -27,8 +27,6 @@
     <a href="when">When</a><br/>
   </span>
 </p>
-<hr/>
-<p>Of course, sometimes, we hear about <a href="breaches">privacy breaches.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

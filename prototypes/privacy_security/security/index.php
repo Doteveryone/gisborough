@@ -12,10 +12,10 @@
 
 <p class='standfirst'>There are three aspects to securing access to your logins and online accounts:</p> 
 
-<ul>
-  <li><strong><a href='identity'>Identity</a></strong> - <em>who you are.</em></li>
-  <li><strong><a href='authentication'>Authentication</a></strong> - <em>you are who you say you are.</em></li>
-  <li><strong><a href='authorisation'>Authorisation</a></strong> - <em>you're allowed to do the thing you want to do.</em></li>
+<ul class='tightlist'>
+  <li><strong><a href='identity'>Identity</a></strong> &ndash; <em>who you are.</em></li>
+  <li><strong><a href='authentication'>Authentication</a></strong> &ndash; <em>you are who you say you are.</em></li>
+  <li><strong><a href='authorisation'>Authorisation</a></strong> &ndash; <em>you're allowed to do the thing you want to do.</em></li>
 </ul>
 
 </div>

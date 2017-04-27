@@ -17,7 +17,7 @@
 <p>
   It might be that someone made a <a href="mistakes">mistake</a>.<br/>
   It might be that someone's been given <a href="permissions">the wrong permissions</a>.<br/>
-  It might just be that the software doesn't work <a href="software">correctly</a>.<br/>
+  It might just be that the <a href="software">software doesn't work correctly</a>.<br/>
 </p>
 
 </div>

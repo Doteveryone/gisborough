@@ -11,11 +11,11 @@
   Mistakes
 </div>
 
-<h1>Mistakes</h1>
+<h1>Privacy breaches: mistakes</h1>
 
 <p class='standfirst'>A common mistake is being unaware of things being publicly visible. This is usually because a user hasn’t switched the settings on a site or app to match what they want, giving more people authorisation to view things.</p>
 
-<p><a href="https://identity.utexas.edu/everyone/how-to-manage-your-social-media-privacy-settings" target="_blank">Find out how to check your settings on social media.</a></p>
+<p>Find out how to <a href="https://identity.utexas.edu/everyone/how-to-manage-your-social-media-privacy-settings" target="_blank">check your settings on social media.</a></p>
 
 <p>A common oversight is having one account identity inadvertently connect to another. For example, someone might use their real name and nickname on one site, but just a nickname on another. Googling could help someone link both accounts back to the real name.</p>
 

@@ -6,15 +6,17 @@
   &raquo;
   <a href="/prototypes/privacy_security/privacy">Privacy</a>
   &raquo;
-  Who you show it to
+  Who you show information to
 </div>
-<h1>Who you show it to</h1>
+<h1>Privacy: who you show information to</h1>
 
 <p class='standfirst'>Do you want to limit which people can see what you think and do?</p>
 
-<p>If so, who do you feel comfortable seeing? Friends and family? Friends of your friends too? Anyone anywhere in the world?</p>
+<p>Perhaps you think of 'friends' online as different to friends offline. Maybe you share more with them, maybe less.</p>
 
-<p>Perhaps who can see changes with what you're showing. You have control over what you put out there.</p>
+<p>If so, who do you feel comfortable seeing your posts? Friends and family? Friends of your friends too? Anyone anywhere in the world?</p>
+
+<p>Perhaps who can see what you're showing changes depending on the content. You have control over what you put out there.</p>
 <hr/>
 <p><b>Other aspects of privacy:</b><br/>
   <span class='indent'>
@@ -25,8 +27,6 @@
     <a href="when">When</a><br/>
   </span>
 </p>
-<hr/>
-<p>Of course, sometimes, we hear about <a href="breaches">privacy breaches.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

@@ -11,9 +11,9 @@
   Poor software
 </div>
 
-<h1>Poor software</h1>
+<h1>Privacy breaches: poor software</h1>
 
-<p class='standfirst'>Poorly designed software can make it unclear what’s public and what’s private. Settings and functions might be complicated to use, or it might be difficult to check what’s visible to whom.</p>
+<p class='standfirst'>Badly designed software can make it unclear what’s public and what’s private. Settings and functions might be complicated to use, or it might be difficult to check what’s visible to whom.</p>
 
 <p>Badly made software could have bugs that unintentionally reveal information to the wrong users. These are often caught and fixed, but not always.</p>
 <hr/>

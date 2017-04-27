@@ -6,17 +6,17 @@
   &raquo;
   <a href="/prototypes/privacy_security/privacy">Privacy</a>
   &raquo;
-  How you show it
+  How you show information
 </div>
-<h1>How you show it</h1>
+<h1>Privacy: how you show information</h1>
 
 <p class='standfirst'>You can choose how closely tied your real identity is to your online accounts.</p>
 
-<p>Are you using your real name? Are you completely anonymous? Are you using a pseudonym, like a nickname or handle?</p>
+<p>Do you want to use your real name? Do you want to be completely anonymous? Do you want to use a pseudonym, like a nickname or handle?</p>
 
-<p>Can people work out who you are from it? Does that matter to you or in your wider life?</p>
+<p>Can people work out who you are from it? Does that matter to you, or in your wider life, if they can?</p>
 
-<p>Decide what level of identity you're comfortable with, and in which context. You might find it varies.</p>
+<p>Consider what sort of identity you're comfortable with, and in which context. You might decide it varies.</p>
 <hr/>
 
 <p><b>Other aspects of privacy:</b><br/>
@@ -28,8 +28,6 @@
     <a href="when">When</a><br/>
   </span>
 </p>
-<hr/>
-<p>Of course, sometimes, we hear about <a href="breaches">privacy breaches.</a></p>
 
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?>

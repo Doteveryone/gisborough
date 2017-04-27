@@ -11,11 +11,11 @@
   Lack of permissions
 </div>
 
-<h1>Lack of permission</h1>
+<h1>Privacy breaches: lack of permission</h1>
 
 <p class='standfirst'>Other people’s content isn’t yours to use without their permission, and vice versa.</p>
 
-<p>Anyone can link to a Weather Watchers photo without permission, but it shouldn’t be copied for another use without their permission.</p>
+<p>Anyone can link to a BBC Weather Watchers photo without permission, by using the url, but the photo itself shouldn’t be copied for another use without their permission.</p>
 
 <p>Some sites and apps have terms and conditions on the use of members’ content. Copyright law also applies, just as it does to offline creative outputs.</p>
 
