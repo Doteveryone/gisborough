@@ -220,7 +220,7 @@ ul li {
 }
 /* line 220, ../scss/gisborough.scss */
 ul.tightlist {
-  margin: 0;
+  margin: 0 0 1em;
 }
 /* line 222, ../scss/gisborough.scss */
 ul.tightlist li {

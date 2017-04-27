@@ -8,14 +8,14 @@
   &raquo;
   <a href="/privacy_security/privacy/breaches">Privacy Breaches</a>
   &raquo;
-  Lack of permissions
+  Taking without permission
 </div>
 
-<h1>Privacy breaches: lack of permission</h1>
+<h1>Privacy breaches: taking without permission</h1>
 
 <p class='standfirst'>Other people’s content isn’t yours to use without their permission, and vice versa.</p>
 
-<p>Anyone can link to a BBC Weather Watchers photo without permission, by using the url, but the photo itself shouldn’t be copied for another use without their permission.</p>
+<p>Anyone can link to a BBC Weather Watchers photo without permission, by using the <abbr title='Uniform Resource Locator'>URL</abbr>, but the photo itself shouldn’t be copied for another use without their permission.</p>
 
 <p>Some sites and apps have terms and conditions on the use of members’ content. Copyright law also applies, just as it does to offline creative outputs.</p>
 
@@ -23,9 +23,9 @@
 <hr/>
 
 <p>
-  If it's not a <em>lack of permission</em>:<br/>
-  It might be that someone <a href="mistakes">made a mistake</a>.<br/>
-  It might just be that <a href="software">the software doesn't work correctly</a>.
+  If it's not <em>taking something without permission</em>:<br/>
+  It might be that someone <a href="revealing_too_much">revealed more than intended.</a><br/>
+  It might just be that the <a href="software">software doesn't work correctly.</a>
 </p>
 
 <p>When you've finished, you can go <a href="../../">back to the start</a> or find out more about <a href="../../security">Security</a>.

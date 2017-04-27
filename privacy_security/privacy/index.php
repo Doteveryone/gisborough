@@ -10,7 +10,7 @@
 
 <p class='standfirst'>Privacy on the internet isn’t something to automatically worry about – it’s something to think about.</p>
 
-<p>As with security in your offline life, it's about deciding what you want to keep secret, and who you want to keep it secret from. </p>
+<p>As with privacy in your offline life, you decide what you want to keep secret, and who you want to keep it secret from.</p>
 
 <p><a href="what">What you show</a>, <a href="who">to whom</a>, <a href="how">how</a>, <a href="where">where</a> and <a href="when">when</a> are personal choices that are in your control. Once you make them, you can use settings on websites and apps to apply them to what you show and share.</p>
 

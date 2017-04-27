@@ -34,6 +34,9 @@
   <li>Might you feel more open with a distant audience?</li>
   <li>What implications might expressing your views online have, beyond just making your point?</li>
 </ul>
+
+<p>Remember, just because you're thinking about all this, doesn't mean your friends and family are. Someone could share things about you &ndash; photos, attendance at events, news you told them alone &ndash; without considering whether it affects your privacy. If you see something that makes you uncomfortable, talk to them about it.</p>
+
 <hr/>
 
 <p><b>Other aspects of privacy:</b><br/>

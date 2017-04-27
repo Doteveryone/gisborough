@@ -11,14 +11,14 @@
 
 <h1>Privacy breaches</h1>
 
-<p class='standfirst'>People often associate privacy breaches with deliberate attacks.</p>
+<p class='standfirst'>In the news, privacy breaches are often associated with deliberate attacks.</p>
 
-<p>But privacy is about people’s choices, so privacy breaches are often down to human error.</p>
+<p>But privacy is about people’s choices, so more often than not, privacy breaches are down to human error.</p>
 
 <p>
-  It might be that someone made a <a href="mistakes">mistake</a>.<br/>
-  It might be that someone's been given <a href="permissions">the wrong permissions</a>.<br/>
-  It might just be that the software doesn't work <a href="software">correctly</a>.<br/>
+  It might be that someone <a href="revealing_too_much">revealed more than they intended.</a><br/>
+  It might be that someone has <a href="permissions">taken something without permission.</a><br/>
+  It might just be that the <a href="software">software doesn't work correctly.</a><br/>
 </p>
 
 </div>

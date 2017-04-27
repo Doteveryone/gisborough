@@ -12,11 +12,11 @@
 
 <p class='standfirst'>Do you want to limit which people can see what you think and do?</p>
 
+<p>If so, who do you feel comfortable seeing your posts? Friends and family? Friends of your friends too? Anyone anywhere in the world?</p>
 <p>Perhaps you think of 'friends' online as different to friends offline. Maybe you share more with them, maybe less.</p>
 
-<p>If so, who do you feel comfortable seeing your posts? Friends and family? Friends of your friends too? Anyone anywhere in the world?</p>
+<p>Perhaps you show different things to different people depending on the content. You have control over what you put out there.</p>
 
-<p>Perhaps who can see what you're showing changes depending on the content. You have control over what you put out there.</p>
 <hr/>
 <p><b>Other aspects of privacy:</b><br/>
   <span class='indent'>

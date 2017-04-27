@@ -8,10 +8,10 @@
   &raquo;
   <a href="/privacy_security/privacy/breaches">Privacy Breaches</a>
   &raquo;
-  Mistakes
+  Revealing more than intended
 </div>
 
-<h1>Privacy breaches: mistakes</h1>
+<h1>Privacy breaches: revealing more than intended</h1>
 
 <p class='standfirst'>A common mistake is being unaware of things being publicly visible. This is usually because a user hasn’t switched the settings on a site or app to match what they want, giving more people authorisation to view things.</p>
 
@@ -19,12 +19,12 @@
 
 <p>A common oversight is having one account identity inadvertently connect to another. For example, someone might use their real name and nickname on one site, but just a nickname on another. Googling could help someone link both accounts back to the real name.</p>
 
-<p>Something commonly forgotten is what you share about other people. For example, if they’re in photos with you, or you mention them in a post. Your choices can affect, and maybe breach, other people’s privacy, just as theirs can yours. If you’re in doubt, ask before you post.</p>
+<p>Something commonly forgotten is what you share about other people. For example, if they’re in photos with you, or you mention them in a post. Your choices can affect, and maybe breach, other people’s privacy &ndash; just as theirs can yours. If you’re in doubt, ask before you post.</p>
 <hr/>
 <p>
-  If it's not a <em>mistake</em>:<br/>
-  It might be that someone's been <a href="permissions">given the wrong permissions</a>.<br/>
-  It might just be that <a href="software">the software doesn't work correctly</a>.
+  If it's not someone <em>revealing more than intended</em>:<br/>
+  It might be that someone has <a href="permissions">taken something without permission.</a><br/>
+  It might just be that the <a href="software">software doesn't work correctly.</a>
 </p>
 
 <p>When you've finished, you can go <a href="../../">back to the start</a> or find out more about <a href="../../security">Security</a>.
