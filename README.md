@@ -22,7 +22,12 @@ will run a local server at `localhost:9393` and you can tweak to your heart's co
 
 Note that styles are composed in `scss/gisborough.scss` . [Compass][compass] will compile them into CSS for you - just run `bundle exec compass watch` from the application directory to sit and generate full-fat CSS as necessary. Both compiled CSS and original SCSS are checked into Github.
 
+## Gisborough?
+
+[Gisborough.][gisborough]
+
 [doteveryone]: http://www.doteveryone.org.uk
 [sinatra]: http://www.sinatrarb.com/
 [compass]: http://compass-style.org/
 [bundler]: http://bundler.io/
+[gisborough]: https://en.wikipedia.org/wiki/Gisborough_Moor
