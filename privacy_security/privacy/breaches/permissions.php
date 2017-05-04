@@ -20,7 +20,7 @@
 
 <p>Occasionally, someone might copy your photo and post it elsewhere on the internet. Technically, they mustn't do this, but it's very hard to police. It's not right that this is happening but generally it's not something to worry about.</p>
 
-<p>Ownership of the photos uploaded to the BBC Weather Watchers site remains with the person who uploaded it. On other sites, like Instagram, ownership stays with the person who took the photos but uploading it grants the company licence to use it. Ownership and licencing information is included in the terms and conditions for a website or app.</p>
+<p>Ownership of the photos uploaded to the BBC Weather Watchers site remains with the person who uploaded it. On other sites, like Instagram, ownership stays with the person who took the photos but uploading it grants the company licence to use it. Ownership and licensing information is included in the terms and conditions for a website or app.</p>
 
 <p>Some sites and apps have terms and conditions on the use of members’ content. Copyright law also applies, just as it does to offline creative outputs.</p>
 
