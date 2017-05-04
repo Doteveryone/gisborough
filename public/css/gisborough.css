@@ -158,7 +158,7 @@ h1 {
 }
 /* line 167, ../../scss/gisborough.scss */
 .sticky-header .progbar {
-  display: block !important;
+  display: block;
   background: #FFF3E4;
   height: 100%;
   position: absolute;
