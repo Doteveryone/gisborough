@@ -13,9 +13,9 @@
 
 <h1>Identity: who you are</h1>
 
-<p class='standfirst'>Different websites will ask for different combinations of identifying information when you create an account identity. This might include email address, username or nickname, real name, postal address, and postcode.</p>
+<p class='standfirst'>Different websites will ask for different combinations of identifying information when you create an account identity. This might include email address, username or nickname, real name, postal address, postcode, or mobile number.</p>
 
-<p>For example, the BBC Weather Watchers site asks you to create a nickname to display alongside your photo, rather than using your real name.</p>
+<p>For example, the BBC Weather Watchers site asks you to choose a nickname to display alongside your weather photo, rather than using your real name.</p>
 
 <p>Your identity is unique within each website. You can't usually have two accounts on the same site, if they are tied to the same email address. But you might use the same identifying information on different websites.</p>
 

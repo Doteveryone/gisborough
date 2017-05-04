@@ -12,13 +12,15 @@
 
 <p class='standfirst'>You might be hoping your Weather Watchers photo appears on a BBC Weather report &mdash; but did you know, your potential audience is already far bigger?</p>
 
-<p>Lots of people all over the world could see your photo right now, because it sits on a webpage that's open for everyone to view.</p>
+<p>Lots of people all over the world could see your photo right now, because it sits on a webpage that's open for everyone to view. (Although just because they <em>can</em> see it doesn't mean they will.)</p>
 
 <p>To see your photo, people have to visit the unique address at the top of the page. This is called a <abbr title="Uniform Resource Locator">URL</abbr>.</p>
 
 <div class='image-block'>
-  <img src="images/sharing/bbc_url.png "/>
-  <p class='caption'>A URL in a browser's address bar.</p>
+  <h3 class='caption'>A URL in a browser's address bar.</h3>
+<br/>
+  <img class='blkimg' src="images/sharing/bbc_url.png "/>
+<br/>
 </div>
 
 <p>You can send your friends and family this URL and they can use it to look at your photo online, from anywhere in the world. By doing this, you're sharing your photo.</p>
@@ -46,29 +48,20 @@
 <p>Share buttons appear on a lot of webpages to give users a shortcut to sharing their link on other websites.</p>
 
 <div class='image-block'>
+  <h3 class='caption'>A share button (bottom right) on the BBC Weather Watchers site, featuring a typical icon.</h3>
   <img src="images/sharing/share_button.png "/>
-  <p class='caption'>A share button (bottom right) featuring the typical icon.</p>
 </div>
 
-<p>Go to your Weather Watchers report page (with a URL similar to the example above), and click on the Share icon in the bottom right-hand corner of the image.</p>
-
-<p>A list of places to share to will appear. You'll need an account with each of these sites if you want to post there. (There's also a link in the bottom field which you can copy and share manually, as above.)</p>
+<p>Clicking a share button will usually give you a list of places you could share your post or picture. You'll need an account with each of these sites if you want to post there.</p>
 
 <div class='image-block'>
+  <h3 class='caption'>Sharing options pop out of a share button.</h3>
   <img src="images/sharing/share_popup.png "/>
-  <p class='caption'>Sharing options pop out of a share button.</p>
 </div>
-
-
-<p>Say you have a Facebook account and want to share your latest Weather Watchers photo there. Click Facebook in the list of sites and a new window will pop up. You might need to log into your account to continue.</p>
-
-<p>After login you'll see a preview of your photo appear above some text that comes from the Weather Watchers site, saying where the photo was taken.</p>
-
-<p>Above the preview, there's also a space for you to add your own comment or description before you post the photo.</p>
 
 <h2>What happens when I share my photo?</h2>
 
-<p class='standfirst'>When you copy and send the URL of your image to someone, they'll click on it and be taken to the exact address in their own browser. They're seeing the same page, not a copy.</p>
+<p class='standfirst'>When you share your image or post with someone, they can click a link to go to the exact address in their own browser. They're seeing the same page, not a copy.</p>
 
 <p>Content on Weather Watchers, including your photo, is public &mdash; people don't need to log into the site to see it.</p>
 

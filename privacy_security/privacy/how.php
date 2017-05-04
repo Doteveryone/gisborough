@@ -17,6 +17,8 @@
 
 <p>Can people work out who you are from it? Does that matter to you, or in your wider life, if they can?</p>
 
+<p>For example, Twitter and Instagram allow you to use your real name or a nickname on your page and in your handle. Facebook expects you to use your real name, but there are ways to obscure it. Comment sections on sites sometimes allow you to user a nickname too.</p>
+
 <p>Consider what sort of identity you're comfortable with, and in which context. You might decide it varies.</p>
 <hr/>
 

@@ -14,7 +14,9 @@
 
 <p>The internet is a vast network of millions of computers and devices, all connected to each other.</p>
 
-<p>When you go online, your computer joins this network too - and you connect to the BBC via some of these other computers on the way.</p>
+<p>When you go online, your computer joins this network too - and you connect to the BBC via some of these other computers on the way. You're not just on the internet, you're part of it.</p>
+
+<p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' — all within milliseconds.</p>
 
 <div class='image-block'>
   <h3 class='caption'>Your computer connects to the BBC via a network of computers</h3>
@@ -26,8 +28,6 @@
     <div class='clear'><!-- clear --></div>
   </div>
 </div>
-
-<p>Here's what happens when you add a photo to the Weather Watchers page and click 'Post this report' — all within milliseconds.</p>
 
 <h2>What is sent?</h2>
 <p class='standfirst'>You send the data you can see directly on the upload page, and some data you can’t.</p>
@@ -97,8 +97,10 @@
     <p>Often, not a lot. There are so many connections, your data will just take a different route. This gives the internet resilience.</p>
     <p>If a key connection in the network breaks, that can disrupt your access to the internet.</p>
     <p>For instance, if you lose your internet connection at home, any one of the connections in the long chain might have broken – not necessarily the one leaving your house.</p>
-    <p>So if your connection breaks while downloading a webpage or uploading a photo, it may well not be your fault!</p>
 
+    <p>Or if you're having problems with a particular website, you can check if the problem is at your end or elsewhere on the internet with a site like <a href="http://www.downforeveryoneorjustme.com/">Down For Everyone Or Just Me.</a></p>
+
+    <p>So if your connection breaks while downloading a webpage or uploading a photo, it may well not be your fault!</p>
   </div>
 
 </div>

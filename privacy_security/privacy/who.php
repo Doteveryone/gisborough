@@ -13,7 +13,10 @@
 
 <p class='standfirst'>Do you want to limit which people can see what you think and do?</p>
 
-<p>If so, who do you feel comfortable seeing your posts? Friends and family? Friends of your friends too? Anyone anywhere in the world?</p>
+<p>If so, who do you feel comfortable seeing your posts?</p>
+
+<p>For example, on Facebook you can allow or limit who sees your posts so only your friends, friends of friends, or anyone can see. Other apps and sites have similar settings. Find out how to <a href="https://identity.utexas.edu/everyone/how-to-manage-your-social-media-privacy-settings" target="_blank">check your settings on social media.</a></p>
+
 <p>Perhaps you think of 'friends' online as different to friends offline. Maybe you share more with them, maybe less.</p>
 
 <p>Perhaps you show different things to different people depending on the content. You have control over what you put out there.</p>

@@ -11,7 +11,8 @@
 
 <h1>Security</h1>
 
-<p class='standfirst'>There are three aspects to securing access to your logins and online accounts:</p> 
+<!-- <p class='standfirst'>There are three aspects to securing access to your logins and online accounts:</p>  -->
+<p class='standfirst'>Security online is about limiting access to your logins and accounts. It can be thought of as having three aspects:</p> 
 
 <ul>
   <li>

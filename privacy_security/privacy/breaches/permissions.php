@@ -16,7 +16,11 @@
 
 <p class='standfirst'>Other people’s content isn’t yours to use without their permission, and vice versa.</p>
 
-<p>Anyone can link to a BBC Weather Watchers photo without permission, by using the <abbr title='Uniform Resource Locator'>URL</abbr>, but the photo itself shouldn’t be copied for another use without their permission.</p>
+<p>Anyone can link to a BBC Weather Watchers photo without permission, by using the <abbr title='Uniform Resource Locator'>URL</abbr>, but the photo itself shouldn’t be copied for another use without permission of the person who took it.</p>
+
+<p>Occasionally, someone might copy your photo and post it elsewhere on the internet. Technically, they mustn't do this, but it's very hard to police. It's not right that this is happening but generally it's not something to worry about.</p>
+
+<p>Ownership of the photos uploaded to the BBC Weather Watchers site remains with the person who uploaded it. On other sites, like Instagram, ownership stays with the person who took the photos but uploading it grants the company licence to use it. Ownership and licencing information is included in the terms and conditions for a website or app.</p>
 
 <p>Some sites and apps have terms and conditions on the use of members’ content. Copyright law also applies, just as it does to offline creative outputs.</p>
 

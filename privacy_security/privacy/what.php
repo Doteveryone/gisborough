@@ -18,6 +18,7 @@
 <ul class='tightlist'>
   <li>Does what you share depend on what you do, when you do it, or who you’re with?</li>
   <li>Are there things you don’t want to show or say about your free time, work time, family time?</li>
+  <li>Are there people who might not want you to show them or mention them?</li>
 </ul>
 
 <p>Consider events: weddings, birthdays and holidays; nights out and sports matches; conferences and leaving parties.</p>
