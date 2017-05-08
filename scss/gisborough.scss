@@ -1,5 +1,10 @@
 @import 'breakpoint';
 
+// screen sizes
+$moderate: 680px;
+$desktop_and_up: 960px;
+
+
 // colors
 
 $DE_brightyellow: #ffa02f;
@@ -15,7 +20,6 @@ $DE_grey2: #889199;
 $DE_grey3: #bac0c5;
 $DE_grey4: #dcdfe2;
 
-$desktop_and_up: 960px;
 
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -51,13 +55,20 @@ a.big-btn {
     background: $DE_grey4;
 
     .img  {
-      margin: 0 10px 0px 0;
-      float: left;
-      padding: 10px;
-      width: 200px;
+      display: none;
+      @include breakpoint($moderate) {
+        display: block;
+        margin: 0 10px 0px 0;
+        float: left;
+        padding: 10px;
+        width: 200px;
+      }
     }
     .primary {
-      padding: 10px 10px 10px 230px;
+      padding: 10px 10px 10px 10px;
+      @include breakpoint($moderate) {
+        padding-left: 230px;
+      }
 
       /*float: left;*/
     }
@@ -90,8 +101,13 @@ a.big-btn {
   padding: 3px 0 0;
   margin-bottom: 20px;
   .inner {
-    background: url(/images/de-explains-head.png) no-repeat;
-    width: 960px;
+    background: url(/images/de-explains-head.png) no-repeat 10px 0;
+    padding: 10px;
+    @include breakpoint($desktop_and_up) {
+      background-position: 0 0;
+      width: 960px;
+      padding: 0;
+    }
     height: 70px;
     margin: 0 auto;
     a.homelink {
@@ -121,8 +137,13 @@ a.big-btn {
     }
   }
   .inner {
-    width: 960px;
     margin: 0 auto;
+    padding: 0 10px;
+    @include breakpoint($desktop_and_up) {
+      background-position: 0 0;
+      width: 960px;
+      padding: 0;
+    }
   }
 }
 
@@ -140,7 +161,7 @@ a.big-btn {
   padding: 0 10px;
   @include breakpoint($desktop_and_up) {
     width: 960px;
-    // padding: 0;
+    padding: 0;
   }
 }
 
