@@ -592,7 +592,7 @@ table tr.even td {
   .boxout h2 {
     color: #888;
     background: none;
-    border-bottom: 1px solid #888;
+    border: 1px solid #888;
   }
 }
 /* line 531, ../../scss/gisborough.scss */
