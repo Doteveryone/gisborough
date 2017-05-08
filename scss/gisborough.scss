@@ -24,6 +24,66 @@ body {
 
 }
 
+a.big-btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 120%;
+  &:link, &:visited {
+    background: $DE_turquoise;
+    color: white;
+    text-decoration: none;
+  }
+  &:hover, &:active {
+    background: $DE_warmred;
+    text-decoration: none;
+  }
+}
+
+#homepage-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 0 0 20px;
+    padding: 0px;
+    background: $DE_grey4;
+
+    .img  {
+      margin: 0 10px 0px 0;
+      float: left;
+      padding: 10px;
+      width: 200px;
+    }
+    .primary {
+      padding: 10px 10px 10px 230px;
+
+      /*float: left;*/
+    }
+
+    h2 {
+      border: none;
+      padding: 0;
+      margin: 0;
+      a {
+        display: block;
+        padding: 10px;
+        background: $DE_turquoise;
+        &:link, &:visited {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover, &:active {
+          background: $DE_warmred;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}
+
 #top-header {
   background: $DE_turquoise;
   height: 76px;
