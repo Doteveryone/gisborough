@@ -20,6 +20,13 @@ $DE_grey2: #889199;
 $DE_grey3: #bac0c5;
 $DE_grey4: #dcdfe2;
 
+@media print {
+  p {
+    a:after {
+      /*content: " ( "attr(href)" )";*/
+    }
+  }
+}
 
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -34,10 +41,23 @@ a.big-btn {
   padding: 10px;
   font-weight: bold;
   font-size: 120%;
+  @media print {
+    &:after {
+      content: "" !important;
+    }
+    padding: 0;
+    background: none;
+    border-radius: 0;
+  }
   &:link, &:visited {
     background: $DE_turquoise;
     color: white;
     text-decoration: none;
+    @media print {
+      text-decoration: underline;
+      color: black;
+      background: none;
+    }
   }
   &:hover, &:active {
     background: $DE_warmred;
@@ -81,6 +101,12 @@ a.big-btn {
         display: block;
         padding: 10px;
         background: $DE_turquoise;
+        @media print {
+          color: black !important;
+          background: none;
+          border-bottom: 1px solid #ccc;
+
+        }
         &:link, &:visited {
           color: white;
           text-decoration: none;
@@ -100,7 +126,24 @@ a.big-btn {
   height: 76px;
   padding: 3px 0 0;
   margin-bottom: 20px;
+
+  @media print {
+    background: none;
+  }
+
+  .printlogo {
+    display: none;
+
+    @media print {
+      display: block;
+      padding: 10px;
+      margin-left: 10px;
+    }
+  }
   .inner {
+    @media print {
+      display: none;
+    }
     background: url(/images/de-explains-head.png) no-repeat 10px 0;
     padding: 10px;
     @include breakpoint($desktop_and_up) {
@@ -225,6 +268,12 @@ h1 {
   margin: 0 0 1em;
   color: $DE_brightyellow;
 
+  @media print {
+    color: black;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+
 }
 
 
@@ -238,6 +287,11 @@ h1 {
     padding: 0px 0 0;
     h1 {
       margin: 10px 0;
+    }
+
+    @media print {
+      position: relative !important;
+      border: none !important;
     }
   }
   h1 {
@@ -261,6 +315,10 @@ h2 {
   margin: 0 0 1em;
   padding-bottom: 5px;
   border-bottom: 1px solid $DE_brightyellow;
+
+  @media print {
+    border-color: #ccc;
+  }
 }
 
 h3 {
@@ -385,11 +443,18 @@ table {
   z-index: 1;
   text-align: center;
 
+  @media print {
+    background: none;
+  }
+
   .video-shield {
     background: url('/images/play-icon.png') 50% 50% no-repeat rgba(0,0,0,0.5);
     position: relative;
     width: 100%;
     z-index: 2;
+    @media print {
+      display: none;
+    }
   }
 
   video {
@@ -400,6 +465,10 @@ table {
     max-width: 100%;
     margin: 0 auto;
     display: block;
+    
+    @media print {
+      border: 1px solid #888;
+    }
   }
 
   h3.caption {
@@ -407,6 +476,12 @@ table {
     color: white;
     padding: 10px;
     margin: 0;
+
+    @media print {
+      background: none;
+      color: #888;
+      border-bottom: 1px solid #888;
+    }
   }
 
   .inner {
@@ -442,10 +517,19 @@ table {
     padding: 10px;
     border-bottom: none;
     color: white;
+    @media print {
+      color: #888;
+      background: none;
+      border-bottom: 1px solid #888;
+    }
   }
   .inner {
     background: #f3f3f3;
     padding: 10px;
+
+    @media print {
+      background: none;
+    }
 
     img.blkimg {
       display: block;
