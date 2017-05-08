@@ -445,6 +445,7 @@ table {
 
   @media print {
     background: none;
+    border: 1px solid #888;
   }
 
   .video-shield {
@@ -453,22 +454,26 @@ table {
     width: 100%;
     z-index: 2;
     @media print {
-      display: none;
+      background: none;
+      height: 100% !important;
+      &:after {
+        font-style: italic;
+        content: "Video removed from print version";
+      }
     }
   }
 
   video {
     float: left;
+    @media print {
+      display: none;
+    }
   }
 
   img {
     max-width: 100%;
     margin: 0 auto;
     display: block;
-    
-    @media print {
-      border: 1px solid #888;
-    }
   }
 
   h3.caption {
@@ -528,6 +533,7 @@ table {
     padding: 10px;
 
     @media print {
+      border: 1px solid #888;
       background: none;
     }
 
