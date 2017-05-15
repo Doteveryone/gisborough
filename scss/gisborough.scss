@@ -170,6 +170,12 @@ a.big-btn {
   margin-top: 20px;
   font-size: 80%;
   a {
+    &.cclink {
+      &:link, &:visited {
+        color: white;
+        text-decoration: none;
+      }
+    }
     &:link, &:visited {
       color: white;
       text-decoration: underline;

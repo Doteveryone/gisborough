@@ -26,7 +26,11 @@
   <div class='clear'><!-- clear --></div>
   <div id="footer">
     <div class='inner'>
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><abbr title='Creative Commons Attribution-ShareAlike 4.0 International license'>CC-BY-SA</abbr></a> <a href="http://doteveryone.org.uk">DotEveryone</a> 2017.
+      <% if is_home %>
+        A website from <a href="http://doteveryone.org.uk">DotEveryone</a>. <a class='cclink' href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><abbr title='Creative Commons Attribution-ShareAlike 4.0 International license'>CC-BY-SA</abbr></a> 2017 
+      <% else %>
+        An explainer from <a href="http://doteveryone.org.uk">DotEveryone</a>. <a class='cclink' href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><abbr title='Creative Commons Attribution-ShareAlike 4.0 International license'>CC-BY-SA</abbr></a> 2017 
+      <% end %>
     </div>
   </div>
 </body>
