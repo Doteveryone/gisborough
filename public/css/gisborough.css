@@ -186,7 +186,7 @@ a.big-btn:hover, a.big-btn:active {
 /* line 173, ../../scss/gisborough.scss */
 #footer a:link, #footer a:visited {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 177, ../../scss/gisborough.scss */
 #footer a:hover, #footer a:active {

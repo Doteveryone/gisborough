@@ -172,7 +172,7 @@ a.big-btn {
   a {
     &:link, &:visited {
       color: white;
-      text-decoration: none;
+      text-decoration: underline;
     }
     &:hover, &:active {
       color: $DE_warmred;
