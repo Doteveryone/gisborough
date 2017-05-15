@@ -1,12 +1,6 @@
 require 'sinatra'
 require './lib/routing'
 
-helpers do
-  def is_home
-    !locals[:title]
-  end
-end
-
 def is_home_for_path(path_string)
   path_string.strip == "/"
 end
