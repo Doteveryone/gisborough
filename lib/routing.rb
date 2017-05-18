@@ -2,7 +2,7 @@
 MAPPINGS = {"/" => {template: "index",
                     title: nil},
 
-            "/sharing" => {template: "sharing",
+            "/sharing" => {template: "sharing/index",
                            title: "What happens when I share my photo? : "},
 
             "/upload" => {template: "upload/index",
