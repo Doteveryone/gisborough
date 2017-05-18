@@ -4,8 +4,21 @@ MAPPINGS = {"/" => {template: "index",
 
             "/sharing" => {template: "sharing",
                            title: "What happens when I share my photo? : "},
-            "/upload" => {template: "upload",
+
+            "/upload" => {template: "upload/index",
                            title: "What happens when I upload my photo? : "},
+            "/upload/what_is_sent" => {template: "upload/what_is_sent",
+                                       title: "What is sent? : Uploading a photo : "},
+
+            "/upload/where_is_it_sent" => {template: "upload/where_is_it_sent",
+                                       title: "Where is it sent? : Uploading a photo : "},
+
+            "/upload/how_is_it_sent" => {template: "upload/how_is_it_sent",
+                                       title: "How is it sent : Uploading a photo : "},
+
+                                       "/upload/when_the_internet_breaks" => {template: "upload/when_the_internet_breaks",
+                                       title: "When the internet breaks : Uploading a photo : "},
+
             "/privacy_security" => {template: "privacy_security/index",
                                     title: "Security and Privacy : "},
             "/privacy_security/security" => {template: "privacy_security/security/index",
