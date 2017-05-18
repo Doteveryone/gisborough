@@ -4,6 +4,17 @@ MAPPINGS = {"/" => {template: "index",
 
             "/sharing" => {template: "sharing/index",
                            title: "What happens when I share my photo? : "},
+            "/sharing/how_do_i_share" => {template: "sharing/how_do_i_share",
+                           title: "How do I share a photo : What happens when I share my photo? : "},
+
+            "/sharing/clicking_a_link" => {template: "sharing/clicking_a_link",
+                                           title: "What happens when someone clicks my shared link? : What happens when I share my photo? : "},
+
+            "/sharing/broken_links" => {template: "sharing/broken_links",
+                           title: "Why doesn't a link work>? : What happens when I share my photo? : "},
+
+            "/sharing/links_look_different" => {template: "sharing/links_look_different",
+                           title: "Why does a link look different on the page? : What happens when I share my photo? : "},
 
             "/upload" => {template: "upload/index",
                            title: "What happens when I upload my photo? : "},
