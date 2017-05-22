@@ -35,6 +35,15 @@ body {
 
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid $DE_grey3;
+  &.conclusion {
+    border-bottom: 1px solid $DE_brightyellow;
+  }
+}
+
+
 a.big-btn {
   display: inline-block;
   border-radius: 5px;
