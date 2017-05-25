@@ -10,3 +10,7 @@ group :development do
   gem 'breakpoint'
   gem 'shotgun'
 end
+
+group :production do
+  gem 'rack-ssl'
+end

@@ -1,3 +1,8 @@
+if ENV['RACK_ENV'] == 'production'
+  require 'rack/ssl'
+  use Rack::SSL
+end
+
 require 'sinatra'
 require './lib/routing'
 
