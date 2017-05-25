@@ -2,9 +2,7 @@ require 'rack/ssl'
 require 'sinatra'
 require './lib/routing'
 
-if ENV['RACK_ENV'] == 'production'
-  use Rack::SSL
-end
+use Rack::SSL if ENV['RACK_ENV'] == 'production'
 
 def is_home_for_path(path_string)
   path_string.strip == "/"
