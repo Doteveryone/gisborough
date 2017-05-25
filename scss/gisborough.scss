@@ -156,7 +156,7 @@ a.big-btn {
     background: url(/images/de-explains-head.png) no-repeat 10px 0;
     padding: 10px;
     @include breakpoint($desktop_and_up) {
-      background-position: 0 0;
+      background-position: 0;
       width: 960px;
       padding: 0;
     }
@@ -198,7 +198,7 @@ a.big-btn {
     margin: 0 auto;
     padding: 0 10px;
     @include breakpoint($desktop_and_up) {
-      background-position: 0 0;
+      background-position: 0;
       width: 960px;
       padding: 0;
     }

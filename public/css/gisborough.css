@@ -170,7 +170,7 @@ a.big-btn:hover, a.big-btn:active {
 @media (min-width: 960px) {
   /* line 152, ../../scss/gisborough.scss */
   #top-header .inner {
-    background-position: 0 0;
+    background-position: 0;
     width: 960px;
     padding: 0;
   }
@@ -216,7 +216,7 @@ a.big-btn:hover, a.big-btn:active {
 @media (min-width: 960px) {
   /* line 197, ../../scss/gisborough.scss */
   #footer .inner {
-    background-position: 0 0;
+    background-position: 0;
     width: 960px;
     padding: 0;
   }
