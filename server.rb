@@ -6,9 +6,6 @@ require 'sinatra/base'
 require './lib/routing'
 
 class Gisborough < Sinatra:: Base
-  if ENV['RACK_ENV'] == 'production'
-    use Rack::SSL
-  end
   def is_home_for_path(path_string)
     path_string.strip == "/"
   end
