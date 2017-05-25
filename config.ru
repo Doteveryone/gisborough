@@ -1,2 +1,2 @@
 require './server'
-run Gisborough
+run Sinatra::Application
