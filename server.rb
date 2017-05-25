@@ -1,19 +1,23 @@
 if ENV['RACK_ENV'] == 'production'
   require 'rack/ssl'
-  use Rack::SSL
 end
 
-require 'sinatra'
+require 'sinatra/base'
 require './lib/routing'
 
-def is_home_for_path(path_string)
-  path_string.strip == "/"
-end
+class Gisborough < Sinatra:: Base
+  if ENV['RACK_ENV'] == 'production'
+    use Rack::SSL
+  end
+  def is_home_for_path(path_string)
+    path_string.strip == "/"
+  end
 
-MAPPINGS.each do |route, options|
-  get route do
-    is_home = is_home_for_path(route)
+  MAPPINGS.each do |route, options|
+    get route do
+      is_home = is_home_for_path(route)
 
-    erb options[:template].to_sym, layout: :main_layout, locals: {pagetitle: options[:title], is_home: is_home}
+      erb options[:template].to_sym, layout: :main_layout, locals: {pagetitle: options[:title], is_home: is_home}
+    end
   end
 end

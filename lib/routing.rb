@@ -1,4 +1,3 @@
-
 MAPPINGS = {"/" => {template: "index",
                     title: nil},
 
