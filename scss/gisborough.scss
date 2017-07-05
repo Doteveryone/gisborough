@@ -7,18 +7,18 @@ $desktop_and_up: 960px;
 
 // colors
 
-$DE_brightyellow: #ffa02f;
-$DE_warmred: #f7403a;
-$DE_turquoise: #00b3be;
+$DE_brightyellow: #ff7043;
+$DE_warmred: #c63f17;
+$DE_turquoise: #26a69a;
 $DE_paleblue: #64a0c8;
 $DE_sage: #6a8a7f;
 $DE_darkgrey: #51626f;
 
-$DE_grey0: #394147;
-$DE_grey1: #55626e;
-$DE_grey2: #889199;
+$DE_black: #053049;
+$DE_bkgnd: #fffaf2;
+
 $DE_grey3: #bac0c5;
-$DE_grey4: #dcdfe2;
+$DE_grey4: #E8E8E8;
 
 @media print {
   p {
@@ -29,10 +29,10 @@ $DE_grey4: #dcdfe2;
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.6em;
   font-size: 18px;
-
+  background: $DE_bkgnd;
 }
 
 hr {
@@ -227,15 +227,18 @@ a.big-btn {
 
 a:link, a:visited {
   color: $DE_turquoise;
+  font-weight: 500;
 }
 
 a:hover, a:active {
   color: $DE_warmred;
+  font-weight: 500;
 }
 
 p.standfirst {
   font-size: 140%;
   line-height: 1.4;
+  font-weight: 500;
 }
 
 
@@ -283,6 +286,8 @@ h1 {
   font-size: 180%;
   margin: 0 0 1em;
   color: $DE_brightyellow;
+  border-bottom: 1px solid $DE_brightyellow;
+  padding-bottom: 10px;
 
   @media print {
     color: black;
@@ -330,6 +335,7 @@ h2 {
   font-size: 160%;
   margin: 0 0 1em;
   padding-bottom: 5px;
+  color: $DE_brightyellow;
   border-bottom: 1px solid $DE_brightyellow;
 
   @media print {
