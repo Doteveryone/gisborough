@@ -30,7 +30,7 @@ $DE_grey4: #E8E8E8;
 
 body {
   font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.6em;
+  line-height: 1.5em;
   font-size: 18px;
   background: $DE_bkgnd;
 }
@@ -236,9 +236,8 @@ a:hover, a:active {
 }
 
 p.standfirst {
-  font-size: 140%;
+  font-size: 130%;
   line-height: 1.4;
-  font-weight: 500;
 }
 
 
@@ -285,9 +284,9 @@ h1 {
   font-weight: bold;
   font-size: 180%;
   margin: 0 0 1em;
+  padding-bottom: 5px;
   color: $DE_brightyellow;
   border-bottom: 1px solid $DE_brightyellow;
-  padding-bottom: 10px;
 
   @media print {
     color: black;
@@ -675,7 +674,7 @@ a.concertina-return {
 
 span.indent {
   display: block;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 .breadcrumbs {
